@@ -1,0 +1,5034 @@
+@charset "UTF-8";
+
+.nav-menu-container__header-block {
+  background-color: #1A1818;
+  padding: 10px 0;
+}
+
+.nav-menu-container__header-block .localization-block a {
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-menu-container__header-block .localization-block a.active {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__header-block .localization-block a:hover {
+  text-decoration: none;
+  color: #ED3D4F;
+}
+
+.nav-menu-container__header-block .selectors-block {
+  display: flex;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  border-radius: 30px;
+  padding: 5px 40px;
+  position: relative;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select span:before {
+  width: 15px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  height: 19px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "icomoon";
+  content: "\E907";
+}
+
+.nav-menu-container__header-block .selectors-block .location-select .list {
+  width: 100%;
+  background-color: #1A1818;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select .list li {
+  background-color: #1A1818;
+  color: #fff;
+  font-family: "Ubuntu Regular";
+  font-weight: normal;
+  padding: 5px 20px;
+  border-bottom: 1px solid #eee;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select .list li:last-child() {
+  border-bottom: 0;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select .list li:hover {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__header-block .selectors-block .location-select:after {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  content: "";
+  display: block;
+  height: 8px;
+  margin-top: -6px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+  transition: all 0.15s ease-in-out;
+  width: 8px;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  border-radius: 30px;
+  padding: 5px 40px;
+  position: relative;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select span:before {
+  content: "";
+  width: 10px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  height: 18px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "\E908";
+  font-family: "icomoon";
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select .list {
+  width: 100%;
+  background-color: #1A1818;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select .list li {
+  background-color: #1A1818;
+  color: #fff;
+  font-family: "Ubuntu Regular";
+  font-weight: normal;
+  padding: 5px 20px;
+  border-bottom: 1px solid #eee;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select .list li:last-child() {
+  border-bottom: 0;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select .list li:hover {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__header-block .selectors-block .phone-select:after {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  content: "";
+  display: block;
+  height: 8px;
+  margin-top: -6px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+  transition: all 0.15s ease-in-out;
+  width: 8px;
+}
+
+.nav-menu-container__header-block .login-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-container__header-block .login-container img {
+  width: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav-menu-container__header-block .login-container a {
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.nav-menu-container__header-block .login-container a:hover {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__header-block .login-container span {
+  color: #fff;
+}
+
+.nav-menu-container__menu-block {
+  box-shadow: 0px 2px 15px #ccc;
+}
+
+.nav-menu-container__menu-block .logotype-image {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 145px;
+}
+
+.nav-menu-container__menu-block ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu-container__menu-block ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-menu-container__menu-block ul li a {
+  font-size: 18px;
+  font-family: "Ubuntu Regular";
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-menu-container__menu-block ul li a:hover {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__menu-block ul li a img {
+  max-height: 24px;
+  height: 100%;
+  margin-right: 5px;
+  max-width: 20px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.nav-menu-container__menu-block ul li .info-select {
+  display: block;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  border-radius: 30px;
+  padding: 5px 40px 5px 10px;
+  position: relative;
+}
+
+.nav-menu-container__menu-block ul li .info-select .list {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 3px 6px 20px #ccc;
+}
+
+.nav-menu-container__menu-block ul li .info-select .list li {
+  background-color: #fff;
+  color: #000;
+  font-family: "Ubuntu Regular";
+  font-weight: normal;
+  padding: 5px 20px;
+  transition: all 0.2s ease-in-out;
+  margin: 0;
+}
+
+.nav-menu-container__menu-block ul li .info-select .list li:last-child() {
+  border-bottom: 0;
+}
+
+.nav-menu-container__menu-block ul li .info-select .list li.selected.focus {
+  background-color: transparent;
+}
+
+.nav-menu-container__menu-block ul li .info-select .list li:hover {
+  color: #ED3D4F;
+}
+
+.nav-menu-container__menu-block ul li .info-select:after {
+  border-bottom: 1px solid #ED3D4F;
+  border-right: 1px solid #ED3D4F;
+  content: "";
+  display: block;
+  height: 8px;
+  margin-top: -6px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+  transition: all 0.15s ease-in-out;
+  width: 8px;
+}
+
+.nav-menu-container__menu-block ul.list {
+  display: block;
+}
+
+.nav-menu-container__categories {
+  border-bottom: 1px solid #eee;
+}
+
+.nice-select {
+  display: flex;
+  align-items: center;
+}
+
+.btn-def-red {
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  background-color: #ED3D4F;
+  border-radius: 30px;
+  border: 1px solid #ED3D4F;
+  padding: 5px 40px;
+}
+
+.btn-def-red:hover {
+  background-color: #fff;
+  color: #ED3D4F;
+}
+
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 1640px;
+  }
+}
+
+@media screen and (max-width: 1699px) {
+  .nav-menu-container__header-block .localization-block a,
+  .nav-menu-container__header-block .selectors-block .location-select,
+  .nav-menu-container__header-block .selectors-block .phone-select,
+  .nav-menu-container__header-block .login-container a,
+  .btn-def-red {
+    font-size: 14px;
+  }
+
+  .btn-def-red {
+    padding: 4px 15px;
+  }
+
+  .nav-menu-container__header-block .selectors-block .location-select,
+  .nav-menu-container__header-block .selectors-block .phone-select {
+    padding: 4px 30px;
+  }
+
+  .nav-menu-container__header-block .selectors-block .location-select span:before {
+    width: 13px;
+    height: 16px;
+  }
+
+  .nav-menu-container__header-block .selectors-block .phone-select span:before {
+    width: 9px;
+    height: 18px;
+  }
+
+  .nav-menu-container__header-block .login-container img {
+    width: 15px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-top: 6px;
+  }
+}
+
+.nav-menu-container__header-block .selectors-block .location-select {
+  margin-right: 10px;
+}
+
+.nav_wrapper {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: top 0.5s ease-out;
+}
+
+.brand-style {
+  max-width: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.scroll {
+  top: -90px;
+}
+
+.no-scroll {
+  top: 0;
+  z-index: 9999;
+}
+
+.btn {
+  padding: 10px 1%;
+  margin: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.1s ease;
+}
+
+.btn:hover {
+  transition: all 0.1s ease;
+}
+
+.icon-arrow-left:before {
+  content: "\E900";
+}
+
+.icon-arrow-right:before {
+  content: "\E901";
+}
+
+.icon-cart:before {
+  content: "\E902";
+}
+
+.icon-compare:before {
+  content: "\E903";
+}
+
+.icon-email:before {
+  content: "\E904";
+}
+
+.icon-heart:before {
+  content: "\E905";
+}
+
+.icon-logout:before {
+  content: "\E906";
+}
+
+.icon-navigation:before {
+  content: "\E907";
+}
+
+.icon-phone:before {
+  content: "\E908";
+}
+
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.test {
+  content: "\E904";
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.menu-link {
+  display: none;
+}
+
+.spinner-master input[type=checkbox] {
+  display: none;
+}
+
+.menu-header {
+  width: auto;
+  height: auto;
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.menu-header ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+.menu-header > li > ul.sub_menu {
+  min-width: 10em;
+  padding: 4px 0;
+  background-color: #f4f4f4;
+  border: 1px solid #fff;
+}
+
+.menu-header ul li {
+  padding: 0px;
+}
+
+.menu-header > ul > li {
+  display: inline-block;
+}
+
+.menu-header ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Oswald Light";
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-header ul li a:hover {
+  color: #ED3D4F;
+}
+
+.menu-header ul li a:hover {
+  color: #ED3D4F;
+}
+
+.menu-header ul li.hover > a {
+  color: #ED3D4F;
+}
+
+.menu-header ul li > a {
+  padding: 15px;
+}
+
+.menu-header ul ul {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  visibility: hidden;
+  transition-delay: 0.5s;
+  top: 100%;
+  min-width: 400px;
+  z-index: 99;
+  padding: 20px 0;
+}
+
+.menu-header ul li:hover > ul {
+  opacity: 1;
+  left: 0;
+  visibility: visible;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-header ul ul > li {
+  position: relative;
+}
+
+.menu-header ul ul > li a {
+  padding: 10px 15px;
+  height: auto;
+  transition: all 0.1s ease-in-out;
+  left: 0;
+  position: relative;
+}
+
+.menu-header ul ul > li a:hover {
+  color: #ED3D4F !important;
+  left: 10px;
+}
+
+.menu-header ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.spinner-master {
+  display: none;
+}
+
+.sub-menu h3 {
+  font-size: 28px;
+  font-family: "Oswald Bold";
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.sub-menu li a {
+  font-size: 18px !important;
+  font-family: "Oswald Light";
+  color: #fff !important;
+}
+
+@media all and (max-width: 992px) {
+  .sub-nav-menu-mob .info-select {
+    max-width: 160px;
+    padding: 2px 26px 2px 10px !important;
+    font-size: 12px !important;
+  }
+
+  .info-select .current {
+    overflow: hidden;
+    display: block;
+  }
+
+  .menu-header-mob {
+    width: 100%;
+  }
+
+  .spinner-master * {
+    transition: all 0.3s;
+    box-sizing: border-box;
+  }
+
+  .spinner-master {
+    position: relative;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    float: none;
+    display: block;
+  }
+
+  .spinner-master label {
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 5px;
+    left: 0;
+  }
+
+  .spinner-master .spinner {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    padding: 0;
+    background-color: #000;
+  }
+
+  .spinner-master .diagonal.part-1 {
+    position: relative;
+    float: left;
+  }
+
+  .spinner-master .horizontal {
+    position: relative;
+    float: left;
+    margin-top: 6px;
+  }
+
+  .spinner-master .diagonal.part-2 {
+    position: relative;
+    float: left;
+    margin-top: 6px;
+  }
+
+  .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal {
+    opacity: 0;
+  }
+
+  .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-1 {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-top: 10px;
+  }
+
+  .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: -10px;
+  }
+
+  a.menu-link {
+    display: block;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 1.5em;
+  }
+
+  a.menu-link:after {
+    content: "\2630";
+    font-weight: normal;
+  }
+
+  a.menu-link.active:after {
+    content: "\2715";
+  }
+
+  .menu-header-mob {
+    clear: both;
+    min-width: inherit;
+    float: none;
+  }
+
+  .menu-header-mob,
+  .menu-header-mob > ul ul {
+    overflow: hidden;
+    max-height: 0;
+    background-color: #262626;
+  }
+
+  .menu-header-mob > li > ul.sub-menu {
+    padding: 0px;
+    border: none;
+  }
+
+  .menu-header-mob.active,
+  .menu-header-mob > ul ul.active {
+    width: 100%;
+    max-height: 55em;
+  }
+
+  .menu-header-mob ul {
+    display: inline;
+    width: 100%;
+  }
+
+  .menu-header-mob li,
+  .menu-header-mob > ul > li {
+    display: block;
+  }
+
+  .menu-header-mob > ul > li:last-of-type a {
+    border: none;
+  }
+
+  .menu-header-mob li a {
+    color: #fff;
+    display: block;
+    padding: 7px 15px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .menu-header-mob li.has-submenu > a:after {
+    content: "+";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+
+  .menu-header-mob li.has-submenu > a.active:after {
+    content: "-";
+  }
+
+  .menu-header-mob ul ul > li a {
+    background-color: #1a1a1a;
+    padding: 3px 18px 5px 30px;
+  }
+
+  .menu-header-mob ul li a:hover {
+    background: #4b5f65;
+    color: #fff;
+  }
+
+  .menu-header-mob ul li.hover > a {
+    background: #1a1a1a;
+    color: #ED3D4F !important;
+  }
+
+  .menu-header-mob ul ul,
+  .menu-header-mob ul ul ul {
+    display: inherit;
+    position: relative;
+    left: auto;
+    top: auto;
+    border: none;
+  }
+
+  .mob-compare-icons a {
+    text-decoration: none;
+  }
+
+  .mob-compare-icons a span {
+    font-size: 18px;
+    color: #000;
+    margin: 0 7px;
+  }
+
+  .logotype-image {
+    max-width: 65px;
+  }
+
+  .nav-menu-mobile {
+    box-shadow: 2px 1px 5px #ccc;
+  }
+
+  .sub-nav-menu-mob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .sub-nav-menu-mob .info-select {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    height: calc(1.5em + 0.75rem - 4px);
+    font-family: "Ubuntu Regular";
+    border-radius: 30px;
+    padding: 2px 40px 2px 10px;
+    position: relative;
+  }
+
+  .sub-menu li a {
+    font-size: 14px !important;
+  }
+
+  .sub-menu.active {
+    padding-left: 0;
+    background-color: #1a1a1a;
+    padding: 15px 0;
+  }
+
+  .localization-block-mob {
+    padding: 10px 6px 20px 6px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+  }
+
+  .localization-block-mob a {
+    font-size: 16px;
+    font-family: "Ubuntu Regular";
+    color: #fff;
+    margin: 0 5px 0 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .localization-block-mob .active {
+    color: #ED3D4F;
+  }
+
+  .login-container-mob {
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .login-container-mob .icon-logout {
+    color: #fff;
+  }
+
+  .login-container-mob div a {
+    font-size: 16px;
+    font-family: "Ubuntu Light";
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin: 0 5px;
+    color: #fff;
+  }
+
+  .login-container-mob div span {
+    color: #fff;
+  }
+}
+
+.filter-form-style [type=checkbox]:checked,
+.filter-form-style [type=checkbox]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.filter-form-style [type=checkbox]:checked + label,
+.filter-form-style [type=checkbox]:not(:checked) + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 0;
+  display: inline-block;
+  color: #333333;
+  font-family: "Ubuntu Light";
+}
+
+.filter-form-style [type=checkbox]:checked + label:before,
+.filter-form-style [type=checkbox]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.filter-form-style [type=checkbox]:hover + label:before {
+  border: 1px solid #ED3D4F;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-form-style [type=checkbox]:checked + label:before {
+  border: 1px solid #ED3D4F;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-form-style [type=checkbox]:checked + label:after,
+.filter-form-style [type=checkbox]:not(:checked) + label:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #ED3D4F;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.2s ease;
+}
+
+.filter-form-style [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.filter-form-style [type=checkbox]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.filter-form-style [type=checkbox]:disabled:checked + label:before,
+.filter-form-style [type=checkbox]:disabled:not(:checked) + label:before {
+  border-color: #ccc;
+  background-color: #eee;
+}
+
+.filter-form-style [type=checkbox]:disabled:checked + label:after {
+  background: #aaa;
+}
+
+.catalog-container__sidebar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.catalog-container__sidebar .filter-form-style {
+  margin-bottom: 30px;
+}
+
+.catalog-container__sidebar .filter-form-style p {
+  margin-bottom: 5px;
+}
+
+.catalog-container__sidebar .filter-form-style h2 {
+  font-size: 20px;
+  font-family: "Oswald Light";
+}
+
+.price-range-block {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.price-range-block h2 {
+  font-size: 20px;
+  font-family: "Oswald Light";
+  margin-bottom: 20px;
+}
+
+.ui-slider-horizontal {
+  height: 0.6em;
+}
+
+.ui-slider-horizontal {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.ui-widget-header {
+  background: #3FE331;
+}
+
+.price-range-search {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #6e6666;
+  min-width: 40%;
+  display: inline-block;
+  height: 32px;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.price-range-field {
+  width: 20%;
+  min-width: 16%;
+  background-color: #f9f9f9;
+  border: 1px solid #6e6666;
+  color: black;
+  font-family: myFont;
+  font: normal 14px Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  height: 26px;
+  padding: 5px;
+}
+
+.search-results-block {
+  position: relative;
+  display: block;
+  clear: both;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 1px solid #ED3D4F;
+  background: #fff;
+  font-weight: normal;
+  color: #454545;
+  border-radius: 50%;
+  width: 15px;
+  top: -6px;
+  outline: none;
+  height: 15px;
+  cursor: ew-resize;
+}
+
+.ui-widget.ui-widget-content {
+  border: 0;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.ui-widget-header {
+  background: #ED3D4F;
+}
+
+.range-count {
+  display: flex;
+  align-items: center;
+}
+
+.range-count input {
+  width: 100%;
+  max-width: 60px;
+}
+
+.range-count label {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .content-filter {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .block {
+    visibility: visible;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    height: auto;
+  }
+
+  .filter-form-style [type=checkbox]:not(:checked) + label {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+  .catalog-container__content .slider-blocks-third__slider-wrapper__item__description {
+    padding: 10px;
+  }
+
+  .catalog-container__content .slider-blocks-third__slider-wrapper__item__description h3 {
+    font-size: 20px;
+  }
+
+  .catalog-container__content .slider-blocks-third__slider-wrapper__item__description .slider-blocks-third__slider-wrapper__item__description__price span {
+    font-size: 16px;
+  }
+
+  .catalog-container__content .slider-blocks-third__slider-wrapper__item__description .slider-blocks-third__slider-wrapper__item__description__price p {
+    font-size: 16px;
+  }
+
+  .catalog-container__content .slider-blocks-third__slider-wrapper__item__description .slider-blocks-third__slider-wrapper__item__description__price p strong {
+    font-size: 18px;
+  }
+}
+
+.btn-def-red {
+  outline: none;
+  box-shadow: none;
+  display: block;
+}
+
+.btn-def-red:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 992px) {
+  .catalog-container__content {
+    padding: 0;
+  }
+}
+
+.news-container {
+  padding: 40px 0;
+}
+
+.news-container h2 {
+  font-size: 48px;
+  font-family: "Oswald Light";
+  display: table;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.news-container__wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.news-container__wrapper__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.news-container__wrapper__item__thumb {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news-container__wrapper__item__description {
+  position: relative;
+  height: 100%;
+  margin-left: 15px;
+  padding-bottom: 25px;
+}
+
+.news-container__wrapper__item__description h2 {
+  font-family: "SegoeUI Bold";
+  font-size: 20px;
+  padding: 0;
+}
+
+.news-container__wrapper__item__description p {
+  font-size: 16px;
+  font-family: "SegoeUI Regular";
+}
+
+.news-container__wrapper__item__description a {
+  font-size: 16px;
+  font-family: "SegoeUI Semibold";
+  text-decoration: none;
+  color: #ED3D4F;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .news-container__wrapper__item__description h2 {
+    font-size: 16px !important;
+  }
+
+  .news-container__wrapper__item__description p {
+    font-size: 12px;
+  }
+
+  .news-container__wrapper__item__description a {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+  .news-container h2 {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-style-alignment {
+    flex-direction: column;
+  }
+
+  .news-container__wrapper__item {
+    padding: 0;
+  }
+
+  .news-container__wrapper__item__description {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.news-single-container__content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.news-single-container__content__img-container {
+  max-width: 800px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.news-single-container__content__img-container img {
+  width: 100%;
+}
+
+.news-single-container__content h2 {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.news-single-container__content p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+@media screen and (max-width: 992px) {
+  .news-single-container__content__img-container {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .news-single-container__content h2 {
+    font-size: 18px;
+  }
+
+  .news-single-container__content p {
+    font-size: 12px;
+  }
+
+  .news-single-container__content {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+
+/* Variables */
+
+@font-face {
+  font-family: "SegoeUI Regular";
+  src: url("/fonts/Segoeui/segoeui.eot"), url("/fonts/Segoeui/segoeui.woff2") format("woff2"), url("/fonts/Segoeui/segoeui.woff") format("woff"), url("/fonts/Segoeui/segoeui.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI Bold";
+  src: url("/fonts/Segoeui/segoeui-bold.eot"), url("/fonts/Segoeui/segoeui-bold.woff") format("woff"), url("/fonts/Segoeui/segoeui-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI Semibold";
+  src: url("/fonts/SegoeUI/segoeui-semibold.eot"), url("/fonts/Segoeui/segoeui-semibold.woff") format("woff"), url("/fonts/Segoeui/segoeui-semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("/fonts/icomon/icomoon.eot?txij9i");
+  src: url("/fonts/icomon/icomoon.eot?txij9i#iefix") format("embedded-opentype"), url("/fonts/icomon/icomoon.ttf?txij9i") format("truetype"), url("/fonts/icomon/icomoon.woff?txij9i") format("woff"), url("/fonts/icomon/icomoon.svg?txij9i#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url("/fonts/Ubuntu/ubuntu-l.eot"), url("/fonts/Ubuntu/ubuntu-l.woff2") format("woff2"), url("/fonts/Ubuntu/ubuntu-l.woff") format("woff"), url("/fonts/Ubuntu/ubuntu-l.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url("/fonts/Ubuntu/ubuntu-m.eot"), url("/fonts/Ubuntu/ubuntu-m.woff2") format("woff2"), url("/fonts/Ubuntu/ubuntu-m.woff") format("woff"), url("/fonts/Ubuntu/ubuntu-m.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Regular";
+  src: url("/fonts/Ubuntu/ubuntu-r.eot"), url("/fonts/Ubuntu/ubuntu-r.woff2") format("woff2"), url("/fonts/Ubuntu/ubuntu-r.woff") format("woff"), url("/fonts/Ubuntu/ubuntu-r.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald Bold";
+  src: url("/fonts/Oswald/oswald-bold.eot"), url("/fonts/Oswald/oswald-bold.woff2") format("woff2"), url("/fonts/Oswald/oswald-bold.woff") format("woff"), url("/fonts/Oswald/oswald-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald Light";
+  src: url("/fonts/Oswald/Oswald-Light.eot");
+  src: url("/fonts/Oswald/Oswald-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Oswald/Oswald-Light.ttf") format("truetype"), url("/fonts/Oswald/Oswald-Light.woff") format("woff"), url("/fonts/Oswald/Oswald-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald Medium";
+  src: url("/fonts/Oswald/Oswald-Medium.eot");
+  src: url("/fonts/Oswald/Oswald-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Oswald/Oswald-Medium.ttf") format("truetype"), url("/fonts/Oswald/Oswald-Medium.woff") format("woff"), url("/fonts/Oswald/Oswald-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-category-container {
+  margin-top: 30px;
+}
+
+.main-category-container__category-wrapper .left-side .one-img {
+  padding: 0 7px;
+  position: relative;
+}
+
+.main-category-container__category-wrapper .left-side .one-img img {
+  width: 100%;
+  height: calc(100% - 5px);
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.main-category-container__category-wrapper .left-side .one-img span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-color: #333333;
+  border-radius: 0 0 15px 15px;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Oswald Light";
+  padding: 0 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 1px 3px #000;
+}
+
+.main-category-container__category-wrapper .left-side .one-img span:hover {
+  background-color: #ED3D4F;
+}
+
+.main-category-container__category-wrapper .left-side .two-img {
+  padding: 0 7px;
+}
+
+.main-category-container__category-wrapper .left-side .two-img div {
+  position: relative;
+  height: calc(50% - 10px);
+}
+
+.main-category-container__category-wrapper .left-side .two-img div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-category-container__category-wrapper .left-side .two-img div span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-color: #333333;
+  border-radius: 0 0 15px 15px;
+  color: #fff;
+  display: table;
+  font-size: 22px;
+  font-family: "Oswald Light";
+  padding: 0 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 1px 3px #000;
+}
+
+.main-category-container__category-wrapper .left-side .two-img div span:hover {
+  background-color: #ED3D4F;
+}
+
+.main-category-container__category-wrapper .left-side .two-img div:first-child {
+  margin-bottom: 15px;
+}
+
+.main-category-container__category-wrapper .left-side .two-img div:last-child span {
+  top: auto;
+  border-radius: 15px 15px 0 0;
+  bottom: 0;
+  position: absolute;
+  box-shadow: 0px -1px 3px #000;
+}
+
+.main-category-container__category-wrapper .right-side {
+  position: relative;
+  padding: 0 30px;
+}
+
+.main-category-container__category-wrapper .right-side h2 {
+  margin: 0;
+}
+
+.main-category-container__category-wrapper .right-side h2 a {
+  font-size: 22px;
+  font-family: "Oswald Bold";
+  color: #000;
+  border-bottom: 2px solid #ED3D4F;
+  padding: 0 5px 3px;
+  display: table;
+  position: absolute;
+  top: -76px;
+  left: 42%;
+  text-decoration: none;
+}
+
+.main-category-container__category-wrapper .right-side .sales-arrows {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  display: flex;
+  left: 0px;
+  right: 0;
+  -webkit-transform: translate(-55%);
+  transform: translate(0, -55%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-category-container__category-wrapper .right-side .sales-arrows__left-arrow i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-category-container__category-wrapper .right-side .sales-arrows__left-arrow i:hover {
+  color: #ED3D4F;
+}
+
+.main-category-container__category-wrapper .right-side .sales-arrows__right-arrow i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-category-container__category-wrapper .right-side .sales-arrows__right-arrow i:hover {
+  color: #ED3D4F;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider__item {
+  height: 100%;
+  position: relative;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider__item .procent-sale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 20px;
+  box-shadow: 2px 2px 7px #333;
+  z-index: 2;
+  background-color: #ED3D4F;
+  color: #fff;
+  border-radius: 0 0 10px 0;
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider__item .sale-dayoff {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 20px;
+  box-shadow: -1px -1px 3px #333;
+  z-index: 2;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 10px 0 0 0;
+  font-size: 28px;
+  font-family: "Oswald Light";
+  z-index: 2;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider .slick-dots {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-left: 0;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 2px solid #7B7B7B;
+  border-radius: 50%;
+  list-style: none;
+  margin: 5px;
+  opacity: 0.6;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider .slick-dots li button {
+  display: none;
+}
+
+.main-category-container__category-wrapper .right-side .sales-wrapper-slider .slick-dots .slick-active {
+  background-color: #ED3D4F;
+  border: 2px solid #ED3D4F;
+}
+
+.cat-autoheight {
+  height: 100%;
+}
+
+.one-img a:hover span {
+  background-color: #ED3D4F !important;
+}
+
+.two-img a:hover span {
+  background-color: #ED3D4F !important;
+}
+
+@media screen and (max-width: 992px) {
+  .main-category-container__category-wrapper .left-side {
+    padding: 0;
+  }
+
+  .main-category-container__category-wrapper .left-side .one-img {
+    padding: 0;
+  }
+
+  .main-category-container__category-wrapper .left-side .two-img {
+    padding-right: 0;
+  }
+
+  .main-category-container__category-wrapper .left-side .two-img div span {
+    font-size: 14px;
+    border-radius: 0 0 5px 5px;
+    padding: 0 10px;
+  }
+
+  .main-category-container__category-wrapper .left-side .one-img span {
+    font-size: 14px;
+    border-radius: 0 0 5px 5px;
+    padding: 0 10px;
+  }
+
+  .main-category-container__category-wrapper .left-side .two-img div:last-child span {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .main-category-container__category-wrapper .right-side .sales-wrapper-slider__item img {
+    min-height: 300px;
+  }
+
+  .main-category-container__category-wrapper .right-side {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .main-category-container__category-wrapper .right-side .sales-wrapper-slider__item .procent-sale,
+  .main-category-container__category-wrapper .right-side .sales-wrapper-slider__item .sale-dayoff {
+    font-size: 16px;
+  }
+
+  .main-category-container__category-wrapper .right-side h2 a {
+    font-size: 24px;
+    font-family: "Oswald Light";
+    color: #000;
+    border-bottom: 0;
+    padding: 0 5px 3px;
+    display: table;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+  }
+
+  .main-category-container__category-wrapper .right-side .sales-arrows {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    left: 0px;
+    right: 0;
+    -webkit-transform: translate(-55%);
+    transform: translate(0, 0);
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .sales-arrows__left-arrow span {
+    margin-right: 7px;
+  }
+
+  .sales-arrows__right-arrow span {
+    margin-left: 7px;
+  }
+}
+
+.slider-blocks-third {
+  margin-top: 100px;
+}
+
+.slider-blocks-third__title-with-arrows {
+  display: flex;
+  align-items: center;
+}
+
+.slider-blocks-third__title-with-arrows h2 {
+  font-size: 48px;
+  font-family: "Oswald Light";
+  display: table;
+  margin: 0 auto;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .left-arrow {
+  margin-right: 5px;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .left-arrow i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .left-arrow i:hover {
+  color: #ED3D4F;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .right-arrow {
+  margin-left: 5px;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .right-arrow i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .right-arrow i:hover {
+  color: #ED3D4F;
+}
+
+.slider-blocks-third__slider-wrapper {
+  margin-top: 40px;
+}
+
+.slider-blocks-third__slider-wrapper__item {
+  background-color: #fff;
+  max-width: 535px;
+  position: relative;
+  padding-bottom: 5px;
+  outline: none;
+  box-shadow: 0px 2px 20px #F8F8F8;
+  margin-bottom: 20px;
+}
+
+.slider-blocks-third__slider-wrapper__item a {
+  outline: none;
+}
+
+.slider-blocks-third__slider-wrapper__item a img {
+  width: 100%;
+}
+
+.slider-blocks-third__slider-wrapper__item__description {
+  padding: 20px;
+}
+
+.slider-blocks-third__slider-wrapper__item__description h3 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.slider-blocks-third__slider-wrapper__item__description__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__price span.in-stock {
+  color: #5BA868;
+  font-size: 18px;
+  font-family: "Oswald Light";
+}
+
+.slider-blocks-third__slider-wrapper__item__description__price span.out-stock {
+  color: #ED3D4F;
+  font-size: 18px;
+  font-family: "Oswald Light";
+}
+
+.slider-blocks-third__slider-wrapper__item__description__price p {
+  font-size: 18px;
+  font-family: "Oswald Light";
+  margin-bottom: 0;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__price p strong {
+  font-size: 23px;
+  font-family: "Oswald Bold";
+  color: #ED3D4F;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__compare {
+  background-color: #333333;
+  padding: 5px 15px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  right: 0;
+  border-radius: 0 0 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__compare:hover span {
+  color: #ED3D4F;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__compare a {
+  text-decoration: none;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__compare a span {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  font-size: 25px;
+  font-size: 18px;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__add-to-cart-btn {
+  display: none;
+  height: 0;
+  transition: all 0.2s ease-in-out;
+  margin: 15px auto 20px;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  background-color: #fff;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  box-shadow: 0px 10px 20px #F8F8F8;
+}
+
+.slider-blocks-third__slider-wrapper__item__description__add-to-cart-btn a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #ED3D4F;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  display: table;
+  font-family: "Oswald Light";
+  text-transform: uppercase;
+}
+
+.slider-blocks-third__slider-wrapper__item:hover .slider-blocks-third__slider-wrapper__item__description__add-to-cart-btn {
+  display: table;
+  z-index: 99;
+}
+
+@media screen and (max-width: 992px) {
+  .slider-blocks-third__title-with-arrows h2 {
+    font-size: 24px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description h3 {
+    font-size: 18px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__price span.in-stock,
+  .slider-blocks-third__slider-wrapper__item__description__price span.out-stock {
+    font-size: 12px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__price p {
+    font-size: 12px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__price p strong {
+    font-size: 18px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description {
+    padding: 5px;
+  }
+
+  .slider-blocks-third__slider-wrapper {
+    margin-top: 15px;
+  }
+
+  .slider-blocks-third {
+    margin-top: 60px;
+  }
+
+  .about-container-info {
+    margin: 60px 0 !important;
+  }
+
+  .about-container-info__thumbnail {
+    min-height: 270px !important;
+  }
+
+  .about-container-info__description {
+    padding: 15px 0 !important;
+  }
+
+  .about-container-info__description h1 {
+    font-size: 24px !important;
+  }
+
+  .about-container-info__description p {
+    font-size: 12px !important;
+  }
+
+  .about-container-info__description .read-more-btn {
+    font-size: 14px !important;
+  }
+}
+
+.about-container-info {
+  margin: 100px 0;
+}
+
+.about-container-info__thumbnail {
+  min-height: 200px;
+  background-size: cover;
+  max-height: 450px;
+}
+
+.about-container-info__description {
+  padding: 40px;
+}
+
+.about-container-info__description h1 {
+  font-size: 48px;
+  font-family: "Oswald Light";
+}
+
+.about-container-info__description p {
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+}
+
+.about-container-info__description .read-more-btn {
+  display: block;
+  text-align: right;
+  color: #ED3D4F;
+  font-size: 16px;
+  font-family: "Oswald Light";
+  text-decoration: none;
+}
+
+.sales-arrows__right-arrow span {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.sales-arrows__right-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.sales-arrows__left-arrow span {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.sales-arrows__left-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .left-arrow span {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .left-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .right-arrow span {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.slider-blocks-third__title-with-arrows__arrows .right-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.news-slider-container {
+  margin: 100px 0 0;
+  padding: 50px 0;
+  background-color: #F6F6F6;
+}
+
+.news-slider-container .title-with-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-slider-container .title-with-arrows h2 {
+  font-size: 48px;
+  font-family: "Oswald Light";
+  text-transform: uppercase;
+}
+
+.news-slider-container .title-with-arrows__arrows .left-arrow {
+  margin-right: 5px;
+}
+
+.news-slider-container .title-with-arrows__arrows .left-arrow span {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.news-slider-container .title-with-arrows__arrows .left-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.news-slider-container .title-with-arrows__arrows .right-arrow {
+  margin-left: 5px;
+}
+
+.news-slider-container .title-with-arrows__arrows .right-arrow span {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.news-slider-container .title-with-arrows__arrows .right-arrow span:hover {
+  color: #ED3D4F;
+}
+
+.news-slider-container__slider-wrapper-news {
+  margin-top: 40px;
+}
+
+.news-slider-container__slider-wrapper-news__item {
+  display: flex !important;
+  max-width: 800px;
+}
+
+.news-slider-container__slider-wrapper-news__item__thumb {
+  min-height: 200px;
+  max-height: 300px;
+  height: 100%;
+  outline: none;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.news-slider-container__slider-wrapper-news__item__description h3 {
+  font-size: 22px;
+  font-family: "Oswald Light";
+}
+
+.news-slider-container__slider-wrapper-news__item__description p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.news-slider-container__slider-wrapper-news__item__description .read-more-btn {
+  display: block;
+  color: #ED3D4F;
+  font-size: 16px;
+  font-family: "Oswald Light";
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .news-slider-container .title-with-arrows h2 {
+    font-size: 24px;
+  }
+
+  .news-slider-container__slider-wrapper-news {
+    margin-top: 20px;
+  }
+
+  .news-slider-container__slider-wrapper-news .slick-slide {
+    margin: 5px;
+  }
+
+  .news-slider-container__slider-wrapper-news__item__description h3 {
+    font-size: 18px;
+  }
+
+  .news-slider-container__slider-wrapper-news__item__description {
+    margin-top: 20px;
+  }
+
+  .news-slider-container__slider-wrapper-news__item__description p {
+    font-size: 12px;
+  }
+
+  .news-slider-container__slider-wrapper-news__item__description .read-more-btn {
+    font-size: 14px;
+  }
+
+  .news-slider-container {
+    margin: 0;
+  }
+}
+
+.registration-form {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.registration-form .modal-dialog {
+  -webkit-transform: none;
+  transform: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 800px;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+.registration-form .modal-dialog .modal-header {
+  border-bottom: 0;
+  align-items: center;
+}
+
+.registration-form .modal-dialog .modal-header .modal-title {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.registration-form .modal-dialog .modal-header .close {
+  outline: none;
+}
+
+.registration-form .modal-dialog .modal-header .close span {
+  border: 1px solid #033333;
+  border-radius: 50%;
+  width: 25px;
+  display: block;
+  height: 25px;
+  line-height: 18px;
+}
+
+.registration-form .modal-dialog .modal-body {
+  padding: 7px 25px 25px;
+}
+
+.registration-form .modal-dialog .modal-body .register-form-container div {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.registration-form .modal-dialog .modal-body .register-form-container div label {
+  font-size: 18px;
+  font-family: "Oswald Light";
+}
+
+.registration-form .modal-dialog .modal-body .register-form-container div input {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+  padding-left: 15px;
+  outline: none;
+}
+
+.registration-form .modal-dialog .modal-body .register-form-container .register-btn {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #ED3D4F;
+  font-size: 14px;
+  padding: 5px 20px;
+  float: right;
+  display: table;
+  font-family: "Oswald Light";
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 992px) {
+  .registration-form .modal-dialog {
+    margin: 0;
+  }
+
+  .registration-form {
+    padding-right: 0;
+  }
+
+  .registration-form .modal-dialog .modal-header .modal-title {
+    font-size: 20px;
+  }
+
+  .registration-form .modal-dialog .modal-body .register-form-container div label {
+    font-size: 14px;
+  }
+
+  .registration-form .modal-dialog .modal-body .register-form-container div input {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 30px;
+  }
+
+  .registration-form .modal-dialog .modal-body {
+    padding: 7px 17px 17px;
+  }
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form .modal-dialog {
+  -webkit-transform: none;
+  transform: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 800px;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+.login-form .modal-dialog .modal-header {
+  border-bottom: 0;
+  align-items: center;
+}
+
+.login-form .modal-dialog .modal-header .modal-title {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.login-form .modal-dialog .modal-header .close {
+  outline: none;
+}
+
+.login-form .modal-dialog .modal-header .close span {
+  border: 1px solid #033333;
+  border-radius: 50%;
+  width: 25px;
+  display: block;
+  height: 25px;
+  line-height: 18px;
+}
+
+.login-form .modal-dialog .modal-body {
+  padding: 7px 25px 25px;
+}
+
+.login-form .modal-dialog .modal-body .login-form-container div {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.login-form .modal-dialog .modal-body .login-form-container div label {
+  font-size: 18px;
+  font-family: "Oswald Light";
+}
+
+.login-form .modal-dialog .modal-body .login-form-container div input {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+  padding-left: 15px;
+  outline: none;
+}
+
+.login-form .modal-dialog .modal-body .login-form-container .login-navig {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.login-form .modal-dialog .modal-body .login-form-container .login-navig .remember-pass-link {
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  text-decoration: none;
+  outline: none;
+  color: #ED3D4F;
+}
+
+.login-form .modal-dialog .modal-body .login-form-container .login-navig .login-btn {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #ED3D4F;
+  font-size: 14px;
+  padding: 5px 20px;
+  display: table;
+  font-family: "Oswald Light";
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 992px) {
+  .login-form {
+    padding-right: 0;
+  }
+
+  .login-form .modal-dialog {
+    margin: 0;
+  }
+
+  .login-form .modal-dialog .modal-header .modal-title {
+    font-size: 20px;
+  }
+
+  .login-form .modal-dialog .modal-body .login-form-container div label {
+    font-size: 14px;
+  }
+
+  .login-form .modal-dialog .modal-body .login-form-container div input {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 30px;
+  }
+
+  .login-form .modal-dialog .modal-body {
+    padding: 7px 17px 17px;
+  }
+
+  .login-form .modal-dialog .modal-body .login-form-container .login-navig .remember-pass-link {
+    font-size: 12px;
+  }
+}
+
+.checkout-form {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.checkout-form .modal-dialog {
+  max-width: 800px;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-header {
+  border-bottom: 0;
+  align-items: center;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.checkout-form .modal-dialog .modal-content .modal-header .close {
+  outline: none;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-header .close span {
+  border: 1px solid #033333;
+  border-radius: 50%;
+  width: 25px;
+  display: block;
+  height: 25px;
+  line-height: 18px;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body {
+  padding: 30px 65px;
+  border-top: 1px solid rgba(112, 112, 112, 0.21);
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div h3 {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select {
+  width: 100%;
+  border: 1px solid rgba(112, 112, 112, 0.21);
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select:after {
+  border-bottom: 1px solid #ED3D4F;
+  border-right: 1px solid #ED3D4F;
+  content: "";
+  display: block;
+  height: 10px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  width: 10px;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select span {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select .list {
+  width: 100%;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select .list li {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div input {
+  width: 100%;
+  font-size: 16px;
+  height: 35px;
+  font-family: "Ubuntu Light";
+  margin-bottom: 10px;
+  border: 1px solid rgba(112, 112, 112, 0.21);
+  border-radius: 3px;
+  padding-left: 18px;
+  outline: none;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div textarea {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+  margin-bottom: 10px;
+  border: 1px solid rgba(112, 112, 112, 0.21);
+  border-radius: 3px;
+  padding-left: 18px;
+  outline: none;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block p {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+  margin-bottom: 0;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block span {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block input {
+  max-width: 200px;
+  padding-left: 0;
+  text-align: center;
+  margin-right: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select:after {
+  margin-top: -6px;
+}
+
+@media screen and (max-width: 992px) {
+  .checkout-form {
+    padding-right: 0 !important;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body {
+    padding: 20px 15px;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-header .modal-title {
+    font-size: 20px;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div h3,
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block p {
+    font-size: 14px;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select span,
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select .list li,
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div input,
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div textarea {
+    font-size: 12px;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block span {
+    font-size: 20px;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block {
+    flex-wrap: wrap;
+  }
+
+  .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block input {
+    max-width: none;
+    margin-top: 15px;
+  }
+}
+
+.paid-success-form {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.paid-success-form .modal-dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+.paid-success-form .modal-dialog .modal-content .modal-header {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.paid-success-form .modal-dialog .modal-content .modal-header .modal-title {
+  width: 100%;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.paid-success-form .modal-dialog .modal-content .modal-body {
+  padding: 20px 40px;
+}
+
+.paid-success-form .modal-dialog .modal-content .modal-body p {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+  text-align: center;
+}
+
+.paid-success-form .modal-dialog .modal-content .modal-body .close {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #ED3D4F;
+  font-size: 16px;
+  padding: 10px 50px;
+  opacity: 1;
+  margin: 0 auto;
+  float: none;
+  position: relative;
+  display: block;
+  font-family: "Ubuntu Light";
+  text-transform: uppercase;
+}
+
+.bt-1px {
+  border-top: 1px solid #dee2e6;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .paid-success-form .modal-dialog .modal-content .modal-header .modal-title {
+    font-size: 20px;
+  }
+
+  .paid-success-form .modal-dialog .modal-content .modal-body p {
+    font-size: 12px;
+  }
+
+  .paid-success-form .modal-dialog .modal-content .modal-body .close {
+    font-size: 12px;
+  }
+
+  .paid-success-form .modal-dialog {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+  }
+}
+
+.contacts-container {
+  margin-top: 70px;
+}
+
+.contacts-container h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+}
+
+.contacts-container__centered-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 70px auto 0;
+}
+
+.contacts-container__centered-wrapper__blocks__item h3 {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+}
+
+.contacts-container__centered-wrapper__blocks__item__info {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.contacts-container__centered-wrapper__blocks__item__info span {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #ED3D4F;
+}
+
+.contacts-container__centered-wrapper__blocks__item__info div a {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+  color: #000;
+  text-decoration: none;
+  line-height: 20px;
+  outline: none;
+}
+
+.contacts-container__centered-wrapper__blocks__item__info div p {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Ubuntu Light";
+  color: #000;
+  margin-bottom: 0;
+}
+
+.contacts-container__centered-wrapper__blocks__item__info div strong {
+  font-family: "Ubuntu Regular";
+}
+
+.bb-gray {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.21);
+}
+
+.bg-lightgray {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,ffffff+42,ffffff+67,ffffff+100 */
+  background: #fafafa;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fafafa 0%, white 42%, white 67%, white 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fafafa", endColorstr="#ffffff",GradientType=0 );
+  /* IE6-9 */
+}
+
+@media screen and (max-width: 992px) {
+  .contacts-container h2 {
+    font-size: 22px;
+  }
+
+  .contacts-container__centered-wrapper__blocks__item h3 {
+    font-size: 16px;
+  }
+
+  .contacts-container__centered-wrapper__blocks__item__info div a {
+    font-size: 12px;
+  }
+
+  .contacts-container__centered-wrapper__blocks__item__info div strong {
+    font-size: 12px;
+  }
+
+  .contacts-container__centered-wrapper__blocks__item__info span {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ED3D4F;
+  }
+
+  .contacts-container__centered-wrapper {
+    margin: 30px auto 0;
+  }
+
+  .contacts-container__centered-wrapper__blocks__item__info div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .contacts-container {
+    margin-top: 40px;
+  }
+
+  .contacts-container__centered-wrapper__blocks {
+    padding: 0;
+  }
+}
+
+.about-container {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.about-container h2 {
+  font-size: 48px;
+  font-family: "Oswald Light";
+  display: table;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.about-container__wrapper__item__list-content-about__content h3 {
+  font-size: 38px;
+  font-family: "Oswald Bold";
+}
+
+.about-container__wrapper__item__list-content-about__content p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.about-container__wrapper__item__list-content-about__image-description {
+  display: flex;
+  align-items: center;
+}
+
+.about-container__wrapper__item__list-content-about__image-description img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-container__wrapper__item:nth-child(even) .about-container__wrapper__item__list-content-about {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 992px) {
+  .about-container h2 {
+    font-size: 24px;
+  }
+
+  .about-container__wrapper__item__list-content-about__content,
+  .about-container__wrapper__item__list-content-about__image-description {
+    padding: 0;
+  }
+
+  .about-container__wrapper__item__list-content-about__content h3 {
+    font-size: 18px;
+  }
+
+  .about-container__wrapper__item__list-content-about__content p {
+    font-size: 12px;
+  }
+}
+
+.faq-container__wrapper-faq {
+  margin: auto;
+  text-align: center;
+}
+
+section.faq {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.faq-container__wrapper-faq ul {
+  text-align: left;
+}
+
+.transition,
+p,
+ul li i:before,
+ul li i:after {
+  transition: all 0.3s;
+}
+
+.faq-container__wrapper-faq .no-select,
+.faq-container__wrapper-faq h2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.faq-container__wrapper-faq h1 {
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.faq-container__wrapper-faq h2 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+  transition: 0.2s;
+  padding-right: 40px;
+}
+
+.faq-container__wrapper-faq p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+  padding-right: 40px;
+  transition: 0.2s;
+}
+
+.faq-container__wrapper-faq ul {
+  list-style: none;
+  -webkit-perspective: 900;
+          perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-container__wrapper-faq ul li {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  /*padding-bottom: 4px;*/
+  /*padding-top: 18px;*/
+  background: #fff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+}
+
+.faq-container__wrapper-faq ul li + li {
+  margin-top: 15px;
+}
+
+.faq-container__wrapper-faq ul li i {
+  position: absolute;
+  -webkit-transform: translate(-6px, 0);
+          transform: translate(-6px, 0);
+  margin-top: 15px;
+  right: 15px;
+}
+
+.faq-container__wrapper-faq ul li i:before,
+ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #ED3D4F;
+  width: 2px;
+  height: 10px;
+}
+
+.faq-container__wrapper-faq ul li i:before {
+  -webkit-transform: translate(-2px, 0) rotate(45deg);
+          transform: translate(-2px, 0) rotate(45deg);
+}
+
+.faq-container__wrapper-faq ul li i:after {
+  -webkit-transform: translate(4px, 0) rotate(-45deg);
+          transform: translate(4px, 0) rotate(-45deg);
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  touch-action: manipulation;
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox]:checked ~ h2 {
+  color: #000;
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox]:checked ~ p {
+  /*margin-top: 0;*/
+  max-height: 0;
+  transition: 0.3s;
+  opacity: 0;
+  /*transform: translate(0, 50%);*/
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox]:checked ~ i:before {
+  -webkit-transform: translate(4px, 0) rotate(45deg);
+          transform: translate(4px, 0) rotate(45deg);
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox]:checked ~ i:after {
+  -webkit-transform: translate(-2px, 0) rotate(-45deg);
+          transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.faq-container {
+  margin: 70px 0;
+}
+
+.faq-container h3 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.faq-container__wrapper-faq {
+  margin: 50px auto 50px;
+  text-align: center;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox] ~ p {
+  margin: 0;
+}
+
+.faq-container__wrapper-faq ul li input[type=checkbox]:checked ~ h2 {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .faq-container h3 {
+    font-size: 22px;
+  }
+
+  .faq-container__wrapper-faq h2 {
+    font-size: 14px;
+  }
+
+  .faq-container__wrapper-faq p {
+    font-size: 12px;
+  }
+
+  .faq-container__wrapper-faq {
+    margin: 30px auto;
+  }
+
+  .faq-container {
+    margin: 35px 0;
+  }
+
+  .faq-container__wrapper-faq ul li i {
+    margin-top: 3px;
+  }
+}
+
+.cart-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 0 !important;
+}
+
+.cart-form .modal-dialog {
+  max-width: 1360px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+
+.cart-form .modal-dialog .modal-content .modal-header {
+  border-bottom: 0;
+}
+
+.cart-form .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+  margin-bottom: 0;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(112, 112, 112, 0.21);
+  padding: 15px 0;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info {
+  display: flex;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info {
+  margin-left: 20px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info h2 {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+  margin-bottom: 20px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info span.in-stock {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #38B357;
+  margin-bottom: 15px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info span.out-stock {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #ED3D4F;
+  margin-bottom: 15px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-family: "Oswald Light";
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info p strong {
+  font-family: "Oswald Bold";
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info a img {
+  max-width: 220px;
+  width: 100%;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity span {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  margin-bottom: 15px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity input {
+  width: 55px;
+  text-align: center;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price span {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  margin-bottom: 15px;
+  display: block;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price div .product-line-price {
+  font-size: 22px;
+  font-family: "Oswald Bold";
+  color: #ED3D4F;
+  margin-right: 7px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price div p {
+  margin-bottom: 0;
+  font-family: "Oswald Light";
+  font-size: 22px;
+}
+
+.cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-removal .remove-product {
+  border: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.totals .totals-item div p {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+  margin-bottom: 0;
+}
+
+.totals .totals-item div span {
+  font-family: "Oswald Light";
+  font-size: 28px;
+}
+
+.cart-btns {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.cart-btns .continue-shopping-btn {
+  border: 2px solid #ED3D4F;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  margin: 0 10px;
+  border-radius: 20px;
+  padding: 7px 35px;
+}
+
+.cart-btns .get-to-checkout-btn {
+  border: 2px solid #ED3D4F;
+  background-color: #ED3D4F;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 20px;
+  padding: 7px 35px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+.mob-total-price-title {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .cart-form .modal-dialog {
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    left: auto;
+    margin: 0 auto;
+    top: auto;
+    -webkit-transform: translate(0) !important;
+            transform: translate(0) !important;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-header .modal-title {
+    font-size: 20px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart,
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info {
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info a img {
+    max-width: 80%;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info h2 {
+    font-size: 18px;
+    font-family: "Oswald Medium";
+    margin-bottom: 10px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info span.in-stock {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-description-info__info p {
+    font-size: 12px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity {
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity span {
+    font-size: 12px;
+    font-family: "Oswald Medium";
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-quantity input {
+    width: 45px;
+    text-align: center;
+    outline: none;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price span {
+    font-size: 12px;
+    font-family: "Oswald Medium";
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price div .product-line-price {
+    font-size: 14px;
+    font-family: "Oswald Bold";
+    color: #ED3D4F;
+    margin-right: 5px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price span {
+    margin-right: 15px;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-body .shopping-cart .product-incart .product-curr-price div p {
+    font-size: 14px;
+  }
+
+  .product-removal {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    padding: 0;
+    width: auto;
+  }
+
+  .product-incart {
+    position: relative;
+  }
+
+  .cart-form .modal-dialog .modal-content .modal-header {
+    padding-bottom: 0;
+  }
+
+  .mob-total-price-title {
+    display: block;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .totals-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .totals .totals-item div p {
+    font-size: 16px;
+    font-family: "Oswald Bold";
+    margin-bottom: 0;
+  }
+
+  .totals .totals-item div span {
+    font-size: 14px;
+  }
+
+  .totals {
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+
+  .cart-btns .continue-shopping-btn {
+    border: 2px solid #ED3D4F;
+    background-color: #fff;
+    font-size: 12px;
+    font-family: "Oswald Medium";
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    margin: 0 5px 0 0;
+    border-radius: 20px;
+    padding: 7px 15px;
+  }
+
+  .cart-btns .get-to-checkout-btn {
+    border: 2px solid #ED3D4F;
+    background-color: #ED3D4F;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    border-radius: 20px;
+    padding: 7px 15px;
+    font-family: "Oswald Medium";
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .cart-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cart-btns .continue-shopping-btn,
+  .cart-btns .get-to-checkout-btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.delivery-container {
+  padding: 70px 0;
+}
+
+.delivery-container h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+}
+
+.delivery-container__wrapper {
+  margin-top: 80px;
+}
+
+.delivery-container__wrapper .left-side {
+  position: relative;
+}
+
+.delivery-container__wrapper .left-side h3 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.delivery-container__wrapper .left-side ul {
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.delivery-container__wrapper .left-side ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  font-family: "Oswald Medium";
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  flex-direction: column;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.13);
+}
+
+.delivery-container__wrapper .left-side ul li:last-child {
+  border-bottom: 0;
+}
+
+.delivery-container__wrapper .left-side ul li:before {
+  content: "";
+  display: block;
+  width: 15px;
+  top: 15px;
+  height: 2px;
+  background-color: #ED3D4F;
+  position: absolute;
+  left: 0;
+}
+
+.delivery-container__wrapper .left-side ul li span {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.delivery-container__wrapper .right-side {
+  position: relative;
+}
+
+.delivery-container__wrapper .right-side h3 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.delivery-container__wrapper .right-side ul {
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.delivery-container__wrapper .right-side ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  font-family: "Oswald Medium";
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  flex-direction: column;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.13);
+}
+
+.delivery-container__wrapper .right-side ul li:last-child {
+  border-bottom: 0;
+}
+
+.delivery-container__wrapper .right-side ul li:before {
+  content: "";
+  display: block;
+  width: 15px;
+  top: 15px;
+  height: 2px;
+  background-color: #ED3D4F;
+  position: absolute;
+  left: 0;
+}
+
+.delivery-container__wrapper .right-side ul li span {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+@media screen and (max-width: 992px) {
+  .delivery-container h2 {
+    font-size: 22px;
+  }
+
+  .delivery-container__wrapper .left-side h3,
+  .delivery-container__wrapper .right-side h3 {
+    font-size: 18px;
+  }
+
+  .delivery-container__wrapper .left-side ul li span,
+  .delivery-container__wrapper .right-side ul li span {
+    font-size: 12px;
+  }
+
+  .delivery-container__wrapper .left-side ul li,
+  .delivery-container__wrapper .right-side ul li {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .delivery-container__wrapper .left-side ul li:before,
+  .delivery-container__wrapper .right-side ul li:before {
+    content: "";
+    display: block;
+    width: 10px;
+    top: 10px;
+    height: 2px;
+    background-color: #ED3D4F;
+    position: absolute;
+    left: 0;
+  }
+
+  .delivery-container {
+    padding: 30px 0;
+  }
+
+  .delivery-container__wrapper {
+    margin-top: 45px;
+  }
+
+  .delivery-container__wrapper .left-side,
+  .delivery-container__wrapper .right-side {
+    padding: 0;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.error-container {
+  height: 100vh;
+  background-image: url(/img/404-bg.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.error-container__wrapper {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.error-container__wrapper h2 {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+  color: #fff;
+  text-align: center;
+}
+
+.error-container__wrapper h1 {
+  font-size: 200px;
+  font-family: "Oswald Medium";
+  color: #ED3D4F;
+  text-align: center;
+  text-shadow: 3px 2px 0px #fff;
+}
+
+.error-container__wrapper .go-home-btn {
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  color: #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background-color: #000;
+  border: 2px solid #ED3D4F;
+  border-radius: 20px;
+  padding: 7px 30px;
+  display: table;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .error-container__wrapper h2 {
+    font-size: 30px;
+  }
+
+  .error-container__wrapper h1 {
+    font-size: 170px;
+  }
+}
+
+.profile-container {
+  padding: 55px 0 100px;
+}
+
+.profile-container__sidebar h3 {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+  text-align: center;
+}
+
+.profile-container__sidebar__navigation {
+  margin-top: 30px;
+}
+
+.profile-container__sidebar__navigation ul {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0;
+}
+
+.profile-container__sidebar__navigation ul li {
+  width: 100%;
+  max-width: 160px;
+}
+
+.profile-container__sidebar__navigation ul li a {
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  color: #000;
+  transition: all 0.15s ease-in-out;
+  border: 1px solid #D2D2D2;
+  border-radius: 20px;
+  display: block;
+  margin: 5px 0;
+  padding: 7px 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-container__sidebar__navigation ul li a:hover {
+  border: 1px solid #ED3D4F;
+  transition: all 0.15s ease-in-out;
+}
+
+.profile-container__sidebar__navigation ul li a.active {
+  background-color: #ED3D4F !important;
+  color: #fff !important;
+  border: 1px solid #ED3D4F;
+}
+
+.profile-container__content__wrapper .tab-content #profile h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.profile-container__content__wrapper .tab-content #profile .your-info {
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+
+.profile-container__content__wrapper .tab-content #profile .your-info .max-w530 {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.profile-container__content__wrapper .tab-content #profile .your-info .max-w530 p {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-family: "Ubuntu Light";
+  border-bottom: 1px solid rgba(20, 20, 26, 0.1);
+}
+
+.profile-container__content__wrapper .tab-content #profile .your-info .max-w530 p span {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  margin-left: 20px;
+}
+
+.profile-container__content__wrapper .tab-content #profile .your-info__edit {
+  border: 1px solid #ED3D4F;
+  padding: 7px 30px;
+  text-align: center;
+  display: table;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  outline: none;
+  float: right;
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data {
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div label {
+  font-size: 18px;
+  font-family: "Ubuntu Light";
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div input {
+  font-size: 18px;
+  font-family: "Oswald Light";
+  outline: none;
+  border: 1px solid rgba(112, 112, 112, 0.29);
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div span a {
+  font-size: 14px;
+  font-family: "Oswald Medium";
+  color: #ED3D4F;
+  white-space: nowrap;
+  text-decoration: none;
+  outline: none;
+}
+
+.profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form .save-changes {
+  background-color: #ED3D4F;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  padding: 7px 30px;
+  text-align: center;
+  border: none;
+  float: right;
+  font-size: 16px;
+  font-family: "Oswald Medium";
+}
+
+.profile-container__content__wrapper .tab-content #order h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper {
+  margin-top: 60px;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item {
+  margin-bottom: 30px;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__img-wrap {
+  padding: 0;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__img-wrap a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__number span {
+  font-size: 14px;
+  font-family: "Ubuntu Regular";
+  color: #848484;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__number p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: "Ubuntu Regular";
+  color: #000;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr h2 {
+  font-size: 20px;
+  font-family: "Oswald Medium";
+  color: #333333;
+  text-transform: normal;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__price {
+  font-size: 18px;
+  font-family: "Oswald Light";
+  margin-bottom: 0;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__price span {
+  font-family: "Oswald Bold";
+  color: #ED3D4F;
+  margin: 0 5px;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__status {
+  font-size: 16px;
+  font-family: "Ubuntu Regular";
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__status span {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #5BA868;
+}
+
+.profile-container__content__wrapper .tab-content #compare .row-compare {
+  margin-bottom: 20px;
+}
+
+.profile-container__content__wrapper .tab-content #compare .row-compare h2 {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.profile-container__content__wrapper .tab-content #compare .row-compare .wrapper-compare {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-container__content__wrapper .tab-content #compare .row-compare .wrapper-compare .slider-blocks-third__slider-wrapper__item {
+  max-width: calc(50% - 10px);
+  margin: 5px;
+}
+
+.profile-container__content__wrapper .tab-content #compare .row-compare .compare-btn {
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  border: 1px solid #ED3D4F;
+  border-radius: 20px;
+  padding: 7px 30px;
+  display: table;
+  color: #000;
+  margin: 30px auto 0;
+  background-color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products h2 {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .wrapper-compare {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .wrapper-compare .slider-blocks-third__slider-wrapper__item {
+  max-width: calc(50% - 10px);
+  margin: 5px;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare {
+  margin-top: 50px;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare h2 {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare .gray-line-style {
+  padding: 5px 0;
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare .gray-line-style span {
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare .gray-line-style:nth-child(odd) {
+  background-color: #F8F8F8;
+}
+
+.profile-container__content__wrapper .tab-content #sales h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 30px;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item {
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-shadow: 0px 7px 24px -16px #707070;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 260px;
+  position: relative;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__discount-text {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  background-color: #ED3D4F;
+  border: 1px solid #ED3D4F;
+  box-shadow: -1px 4px 24px -2px #6B4D4D;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__discount-text h2 {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-family: "Oswald Medium";
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__days {
+  background-color: #262626;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  max-width: 100px;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__days h3 {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-family: "Oswald Medium";
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info h4 {
+  font-size: 20px;
+  color: #333333;
+  font-family: "Oswald Medium";
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info p {
+  font-family: "Ubuntu Light";
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info p span {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Ubuntu Light";
+}
+
+.profile-container__content__wrapper .tab-content #favourite h2 {
+  font-size: 58px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.profile-container__content__wrapper .tab-content #favourite .wrapper-compare {
+  padding-top: 38px;
+}
+
+.my-item {
+  padding: 0 10px 20px 10px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper {
+    display: flex;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item {
+    max-width: 50%;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile-container__content__wrapper .tab-content #compare-this-products .tab-info-compare .gray-line-style span {
+    font-size: 14px;
+  }
+
+  .profile-container__content__wrapper .tab-content #compare-this-products .wrapper-compare .slider-blocks-third__slider-wrapper__item {
+    max-width: 100%;
+  }
+
+  .profile-container__content__wrapper .tab-content #compare-this-products .wrapper-compare {
+    flex-direction: column;
+  }
+
+  .profile-container__content {
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__compare {
+    padding: 0px 7px 2px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div span a {
+    font-size: 10px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form .save-changes {
+    font-size: 12px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div label {
+    font-size: 14px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info .edit-your-data .max-w530 form div input {
+    font-size: 14px;
+  }
+
+  #edit-info {
+    margin-top: 35px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info h2 {
+    font-size: 28px;
+  }
+
+  .profile-container__content__wrapper .tab-content #edit-info .edit-your-data {
+    margin: 30px auto 0;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales h2 {
+    font-size: 28px;
+  }
+
+  #sales {
+    padding-top: 20px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info h4 {
+    font-size: 16px;
+  }
+
+  .profile-container {
+    padding-bottom: 50px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info p {
+    font-size: 14px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__discount-text h2 {
+    font-size: 13px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image__days h3 {
+    font-size: 10px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__info h4 {
+    padding-top: 10px;
+  }
+
+  .profile-container__sidebar__navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile h2 {
+    font-size: 24px;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile h2 {
+    padding-top: 30px;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile .your-info {
+    margin: 30px auto 0;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile .your-info .max-w530 p {
+    font-size: 12px;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile .your-info .max-w530 p span {
+    font-size: 14px;
+  }
+
+  .profile-container__content__wrapper .tab-content #profile .your-info__edit {
+    font-size: 14px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .profile-container__content__wrapper .tab-content #order h2 {
+    font-size: 24px;
+    padding-top: 15px;
+  }
+
+  .profile-container__sidebar__navigation ul li a {
+    font-size: 14px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__status span {
+    font-size: 16px;
+    font-family: "Oswald Medium";
+    color: #5BA868;
+    margin-left: 10px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper {
+    margin-top: 30px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__img-wrap {
+    padding: 0 0 10px 0;
+  }
+
+  .sales-wrapper__item__descr {
+    padding: 0;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__number span {
+    font-size: 12px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__number p {
+    font-size: 12px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr h2 {
+    margin-top: 0;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__price {
+    font-size: 16px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item__descr__status {
+    font-size: 12px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 25px;
+  }
+
+  .profile-container__content__wrapper .tab-content #order .sales-wrapper__item:last-child {
+    border-bottom: none;
+  }
+
+  .profile-container__content__wrapper .tab-content #compare .row-compare h2 {
+    text-align: center;
+  }
+
+  .profile-container__content__wrapper .tab-content #compare .row-compare .wrapper-compare .slider-blocks-third__slider-wrapper__item {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .profile-container__content__wrapper .tab-content #sales .sales-wrapper__main__item__image {
+    min-height: 170px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__compare {
+    border-radius: 0 0 0 0;
+    padding: 2px 7px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description h3 {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description {
+    padding: 15px 5px 5px 5px;
+  }
+
+  .profile-container__content__wrapper .tab-content #favourite h2 {
+    font-size: 28px;
+  }
+
+  #favourite .row-compare {
+    padding-top: 20px;
+  }
+
+  .profile-container__content__wrapper .tab-content #favourite .wrapper-compare {
+    padding-top: 20px;
+  }
+}
+
+.consultation-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 0 !important;
+}
+
+.consultation-form .modal-dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+  max-width: 600px;
+  width: 100%;
+}
+
+.consultation-form .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+  position: relative;
+}
+
+.consultation-form .modal-dialog .modal-content .modal-header .close {
+  outline: none;
+}
+
+.consultation-form .modal-dialog .modal-content .modal-body .consultation-form-container div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.consultation-form .modal-dialog .modal-content .modal-body .consultation-form-container div label {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+}
+
+.consultation-form .modal-dialog .modal-content .modal-body .consultation-form-container div input {
+  font-size: 18px;
+  font-family: "Ubuntu Regular";
+  outline: none;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+}
+
+.consultation-form .modal-dialog .modal-content .modal-body .consultation-form-container .consultation-btn {
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  text-align: center;
+  color: #fff;
+  background-color: #ED3D4F;
+  border-radius: 20px;
+  padding: 7px 30px;
+  display: table;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.star-cb-group {
+  /* remove inline-block whitespace */
+  font-size: 0;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /* the hidden clearer */
+}
+
+.star-cb-group * {
+  font-size: 1.5rem;
+}
+
+.star-cb-group > input {
+  display: none;
+}
+
+.star-cb-group > input + label {
+  /* only enough room for the star */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 1em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.star-cb-group > input + label:before {
+  display: inline-block;
+  text-indent: 9999px;
+  content: "\2606";
+  color: #ED3D4F;
+}
+
+.star-cb-group > input:checked ~ label:before,
+.star-cb-group > input + label:hover ~ label:before,
+.star-cb-group > input + label:hover:before {
+  content: "\2605";
+  color: #ED3D4F;
+}
+
+.star-cb-group > .star-cb-clear + label {
+  text-indent: -9999px;
+}
+
+.star-cb-group:hover > input + label:before {
+  content: "\2606";
+  color: #ED3D4F;
+  text-shadow: none;
+}
+
+.star-cb-group:hover > input + label:hover ~ label:before,
+.star-cb-group:hover > input + label:hover:before {
+  content: "\2605";
+  color: #ED3D4F;
+}
+
+.rating-default {
+  width: 100px;
+}
+
+.rating-default label {
+  float: right;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.rating-default label:not(:first-of-type) {
+  padding-right: 2px;
+}
+
+.rating-default label:before {
+  content: "\2605";
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 0px 0px 1px #ED3D4F;
+  line-height: 1;
+}
+
+.rating-default input {
+  display: none;
+}
+
+.rating-default input.checked-active ~ label:before {
+  color: #ED3D4F;
+}
+
+.product-single-container {
+  margin-top: 30px;
+}
+
+.product-single-container__head-title-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-single-container__head-title-info h2 {
+  font-size: 38px;
+  font-family: "Oswald Medium";
+  margin-right: 40px;
+}
+
+.product-single-container__head-title-info__rating {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.product-single-container__head-title-info__rating p {
+  margin-right: 15px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Oswald Medium";
+}
+
+.product-single-container__head-title-info__model-product p {
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  margin-bottom: 0;
+}
+
+.product-main-info-container__content {
+  margin-top: 30px !important;
+}
+
+.product-main-info-container {
+  border-bottom: 1px solid #ccc;
+}
+
+.product-main-info-container__navigation {
+  margin-top: 45px;
+}
+
+.product-main-info-container__navigation ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.product-main-info-container__navigation ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.product-main-info-container__navigation ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Oswald Medium";
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.product-main-info-container__navigation ul li a.active:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ED3D4F;
+  width: 50px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.product-main-info-container__content__left-side__wrapper {
+  margin-bottom: 30px;
+}
+
+.product-main-info-container__content__left-side__product-description {
+  margin-bottom: 50px;
+}
+
+.product-main-info-container__content__left-side__product-description h2 {
+  font-size: 28px;
+  font-family: "Oswald Medium";
+}
+
+.product-main-info-container__content__left-side__product-description h2 span {
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__left-side__product-description p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.product-main-info-container__content__left-side__main-info h2 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__left-side__main-info__line-col {
+  padding: 7px 0;
+}
+
+.product-main-info-container__content__left-side__main-info__line-col:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.product-main-info-container__content__left-side__main-info__line-col p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.product-main-info-container__content__left-side__reviews {
+  padding: 0 0 20px 0;
+}
+
+.product-main-info-container__content__left-side__reviews h2 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item {
+  margin: 20px 0;
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .left-side p {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Oswald Medium";
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-last-time {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+  margin: 0 20px;
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-date {
+  margin: 0 20px;
+  font-size: 16px;
+  font-family: "Ubuntu";
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .review-description {
+  margin-top: 15px !important;
+}
+
+.product-main-info-container__content__left-side__reviews__wrapper__item .review-description p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.product-main-info-container__content__left-side__reviews__add-review-form {
+  margin: 30px 0;
+}
+
+.product-main-info-container__content__left-side__reviews__add-review-form .input-block-style {
+  margin-bottom: 10px;
+}
+
+.product-main-info-container__content__left-side__reviews__add-review-form .input-block-style input {
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.product-main-info-container__content__left-side__reviews__add-review-form .input-block-style label {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__left-side__reviews__add-review-form .input-block-style textarea {
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+  padding-left: 15px;
+}
+
+.product-main-info-container__content__left-side__delivery-section div {
+  margin-bottom: 20px;
+}
+
+.product-main-info-container__content__left-side__delivery-section div h2 {
+  font-size: 38px;
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__left-side__delivery-section div p {
+  font-size: 16px;
+  font-family: "Ubuntu Light";
+}
+
+.product-main-info-container__content__left-side__delivery-section div ul {
+  padding-left: 0;
+}
+
+.product-main-info-container__content__left-side__delivery-section div ul li {
+  font-size: 16px;
+  list-style: none;
+  font-family: "Ubuntu Light";
+  display: flex;
+  padding-left: 20px;
+}
+
+.product-main-info-container__content__left-side__delivery-section div ul li:before {
+  content: " - ";
+  display: block;
+  left: -10px;
+  position: relative;
+}
+
+.product-main-info-container__content__right-side__variations-block {
+  background-color: #F8F8F8;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.product-main-info-container__content__right-side__variations-block p {
+  font-size: 18px;
+  font-family: "Oswald Medium";
+}
+
+.product-main-info-container__content__right-side__variations-block form .radio-group input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.product-main-info-container__content__right-side__variations-block form .radio-group label {
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 3px 20px;
+  border: 2px solid #C4C4C4;
+  font-family: "Ubuntu Light";
+  transition: all 0.1s ease-in-out;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.product-main-info-container__content__right-side__variations-block form .radio-group input[type=radio]:checked + label {
+  border: 2px solid #ED3D4F;
+}
+
+.product-main-info-container__content__right-side__variations-block form .radio-group .radio-group {
+  display: inline-block;
+  margin: 50px 50px 10px;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.product-main-info-container__content__right-side__variations-block form .radio-group .input-group {
+  margin-left: 50px;
+}
+
+.product-main-info-container__content__right-side__variations-block form .color-variation-style label {
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid transparent;
+  font-family: "Ubuntu Light";
+  transition: all 0.1s ease-in-out;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.product-main-info-container__content__right-side__variations-block form .color-variation-style label img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-main-info-container__content__right-side__variations-block form .color-variation-style input[type=radio]:checked + label {
+  border: 2px solid #ED3D4F;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container {
+  background-color: #F8F8F8;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container div .in-stock {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #5BA868;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container div .out-stock {
+  margin-bottom: 0;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container__buy-block {
+  display: flex;
+  align-items: center;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container__buy-block p {
+  font-size: 18px;
+  font-family: "Oswald Light";
+  margin-bottom: 0;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container__buy-block p strong {
+  margin: 0 10px;
+  font-size: 22px;
+  font-family: "Oswald Bold";
+  color: #ED3D4F;
+}
+
+.product-main-info-container__content__right-side__add-to-cart-container__buy-block .btn-def-red {
+  text-transform: uppercase;
+  margin: 0 20px;
+  font-size: 16px;
+  font-family: "Oswald Medium";
+  padding: 7px 40px;
+}
+
+.product-main-info-container__content__right-side__product-main-info img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-main-info-container__content__right-side__product-main-info div h2 {
+  font-size: 28px;
+  font-family: "Oswald Light";
+}
+
+.product-main-info-container__content__right-side__product-main-info div .in-stock {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #5BA868;
+}
+
+.product-main-info-container__content__right-side__product-main-info div .out-stock {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Oswald Medium";
+  color: #ED3D4F;
+}
+
+.product-main-info-container__content__right-side__product-main-info div .cart-price-container div {
+  display: flex;
+  align-items: center;
+}
+
+.product-main-info-container__content__right-side__product-main-info div .cart-price-container div p {
+  font-size: 18px;
+  font-family: "Oswald Light";
+  margin-bottom: 0;
+}
+
+.product-main-info-container__content__right-side__product-main-info div .cart-price-container div p strong {
+  margin: 0 10px;
+  font-size: 22px;
+  font-family: "Oswald Bold";
+  color: #ED3D4F;
+}
+
+.product-main-info-container__content__right-side__product-main-info div .cart-price-container div .btn-def-red {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.old-price {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #ED3D4F;
+          text-decoration-color: #ED3D4F;
+  font-size: 16px;
+  font-family: "Oswald Light";
+}
+
+.slider-desc-nav .slick-slide img {
+  padding: 5px;
+}
+
+.slider-desc-main .slick-slide img {
+  padding: 5px;
+}
+
+.mob-flex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .product-single-container__head-title-info h2 {
+    font-size: 20px;
+    font-family: "Oswald Medium";
+    margin-right: 0;
+  }
+
+  .product-single-container__head-title-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .product-single-container__head-title-info__rating p,
+  .product-single-container__head-title-info__model-product p,
+  .product-main-info-container__content__left-side__main-info__line-col p {
+    font-size: 12px;
+  }
+
+  .product-single-container__head-title-info__rating {
+    margin-right: 20px;
+  }
+
+  .rating-default label {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rating-default label:before {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__navigation ul li a {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .product-main-info-container__navigation {
+    margin-top: 20px;
+  }
+
+  .product-main-info-container__content__left-side {
+    padding: 0;
+  }
+
+  .product-main-info-container__content__left-side__product-description h2 {
+    font-size: 18px;
+  }
+
+  .product-main-info-container__content__left-side__product-description p {
+    font-size: 12px;
+  }
+
+  .product-main-info-container__content__left-side__product-description {
+    margin-bottom: 10px;
+  }
+
+  .product-main-info-container__content__left-side__main-info h2 {
+    font-size: 18px;
+    font-family: "Oswald Light";
+    margin-bottom: 0;
+  }
+
+  .product-main-info-container__content__right-side__variations-block form .radio-group label {
+    font-size: 12px;
+    padding: 3px 10px;
+    margin-right: 0px;
+  }
+
+  .product-main-info-container__content__right-side__variations-block p {
+    margin-bottom: 10px;
+  }
+
+  .product-main-info-container__content__right-side__variations-block {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product-main-info-container__content__right-side__variations-block form .color-variation-style label img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .product-main-info-container__content__right-side__variations-block form .color-variation-style label {
+    font-size: 12px;
+    padding: 3px;
+    border: 2px solid transparent;
+    margin-right: 0px;
+  }
+
+  .product-main-info-container__content__right-side__add-to-cart-container div .in-stock,
+  .product-main-info-container__content__right-side__add-to-cart-container__buy-block p {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__right-side__add-to-cart-container__buy-block p strong {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+
+  .product-main-info-container__content__right-side__add-to-cart-container__buy-block {
+    padding: 0;
+  }
+
+  .product-main-info-container__content__right-side__add-to-cart-container__buy-block .btn-def-red {
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 14px;
+    font-family: "Oswald Medium";
+    padding: 5px 30px;
+  }
+
+  .product-main-info-container__content__left-side__reviews h2 {
+    font-size: 18px;
+  }
+
+  .flex-style-review {
+    flex-direction: column;
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-last-time {
+    font-size: 12px;
+    font-family: "Ubuntu Light";
+    margin: 0;
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-date {
+    margin: 0 0px;
+    font-size: 12px;
+    font-family: "Ubuntu";
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .review-description {
+    margin-top: 5px !important;
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .review-description p {
+    font-size: 12px;
+    font-family: "Ubuntu Light";
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item {
+    margin: 10px 0 10px;
+  }
+
+  .product-main-info-container__content__left-side__reviews {
+    padding: 25px 0 20px 0;
+  }
+
+  .btn-def-red {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  .slider-blocks-third__title-with-arrows h2 {
+    font-size: 18px;
+  }
+
+  .slider-blocks-third__title-with-arrows__arrows .left-arrow span,
+  .slider-blocks-third__title-with-arrows__arrows .right-arrow span {
+    font-size: 20px;
+  }
+
+  .slider-blocks-third {
+    margin-top: 30px;
+  }
+
+  .padd-mob-style {
+    padding: 2px !important;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+
+  .slider-blocks-third__slider-wrapper__item__description__price p strong {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__right-side {
+    padding: 0;
+  }
+
+  .product-main-info-container__navigation ul li {
+    list-style: none;
+    margin-right: 12px;
+  }
+
+  .product-main-info-container__content__right-side__product-main-info div h2 {
+    font-size: 18px;
+    font-family: "Oswald Light";
+    margin-top: 15px;
+  }
+
+  .product-main-info-container__content__right-side__product-main-info div .in-stock {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__right-side__product-main-info div .cart-price-container div p {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__right-side__product-main-info div .cart-price-container div p strong {
+    font-size: 16px;
+  }
+
+  .product-main-info-container__content__left-side__reviews__add-review-form .input-block-style label {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__left-side__reviews__add-review-form .input-block-style input {
+    font-size: 14px;
+  }
+
+  .product-main-info-container__content__left-side__reviews__wrapper__item .left-side p {
+    font-size: 16px;
+  }
+
+  .product-main-info-container__content__left-side__delivery-section div h2 {
+    font-size: 18px;
+    font-family: "Oswald Light";
+  }
+
+  .product-main-info-container__content__left-side__delivery-section div p,
+  .product-main-info-container__content__left-side__delivery-section div ul li {
+    font-size: 12px;
+  }
+}
+
+.nav_wrapper > .container {
+  padding: 0;
+}
+
+.menu-header > ul > li:first-child > a {
+  padding-left: 0;
+}
+
+.product-main-info-container__content__right-side__product-main-info {
+  margin-bottom: 15px;
+}
+
+.footer-container {
+  background-image: url(/img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.footer-container__wrapper__item h2 {
+  font-size: 22px;
+  font-family: "Oswald Light";
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.footer-container__wrapper__item ul {
+  padding-left: 0;
+}
+
+.footer-container__wrapper__item ul li {
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.footer-container__wrapper__item ul li a {
+  font-size: 14px;
+  font-family: "Ubuntu Light";
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-container__wrapper__item ul li a:hover {
+  color: #ED3D4F;
+}
+
+.footer-container__wrapper__item p {
+  font-size: 14px;
+  font-family: "Ubuntu Light";
+  color: #fff;
+}
+
+.footer-container__wrapper__item p strong {
+  font-family: "Ubuntu Regular";
+}
+
+.footer-container__wrapper__item .payment {
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer-container__wrapper__item #map {
+  height: 190px;
+}
+
+.footer-container__wrapper__item__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.footer-container__wrapper__item__row .mw-style {
+  min-width: 20px;
+}
+
+.footer-container__wrapper__item__row p {
+  margin-bottom: 0;
+}
+
+.footer-container__wrapper__item__row span {
+  font-size: 14px;
+  font-family: "Ubuntu Light";
+  color: #ED3D4F;
+}
+
+.footer-container__wrapper__item__row span a {
+  font-size: 14px;
+  font-family: "Ubuntu Light";
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright-container {
+  background-color: #131313;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.copyright-container span {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-container {
+    background-size: cover;
+    padding: 35px 0;
+  }
+
+  .footer-container__wrapper__item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer-container__wrapper__item {
+    margin-bottom: 25px;
+  }
+
+  .footer-container__wrapper__item__row span a,
+  .footer-container__wrapper__item p,
+  .footer-container__wrapper__item ul li a,
+  .copyright-container span {
+    font-size: 12px;
+  }
+}
+

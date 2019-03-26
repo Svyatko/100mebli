@@ -1,0 +1,116 @@
+.login-form {
+    background-color: rgba(0,0,0,.5);
+    .modal-dialog {
+        -webkit-transform: none;
+        transform: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        max-width: 800px;
+        width: 100%;
+        transform: translate(-50%, -50%) !important;
+        .modal-header {
+            border-bottom: 0;
+            align-items: center;
+            .modal-title {
+                font-size: 38px;
+                font-family: 'Oswald Medium';
+            }
+
+            .close {
+                outline: none;
+                span {
+                    border: 1px solid #033333;
+                    border-radius: 50%;
+                    width: 25px;
+                    display: block;
+                    height: 25px;
+                    line-height: 18px;
+                }
+            } 
+        }
+        .modal-body {
+            padding: 7px 25px 25px;
+            .login-form-container {
+                div  {
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 20px;
+                    flex-direction: column;
+                    label {
+                        font-size: 18px;
+                        font-family: 'Oswald Light';
+                    }
+
+                    input {
+                        font-size: 18px;
+                        font-family: 'Ubuntu Light';
+                        padding-left: 15px;
+                        outline: none;
+                    }  
+                }    
+                .login-navig {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    .remember-pass-link {
+                        font-size: 16px;
+                        font-family: 'Oswald Medium';
+                        text-decoration: none;
+                        outline: none;
+                        color: #ED3D4F;
+                    }
+
+                    .login-btn {
+                        text-decoration: none;
+                        color: #fff;
+                        border-radius: 30px;
+                        text-align: center;
+                        background-color: #ED3D4F;
+                        font-size: 14px;
+                        padding: 5px 20px;                        
+                        display: table;
+                        font-family: "Oswald Light";
+                        text-transform: uppercase;
+                        border: none;
+                        outline: none;
+                    }
+                }  
+            }  
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .login-form {
+        padding-right: 0;
+    }
+
+    .login-form .modal-dialog {
+        margin: 0;
+    }
+
+    .login-form .modal-dialog .modal-header .modal-title {
+        font-size: 20px;
+    }
+
+    .login-form .modal-dialog .modal-body .login-form-container div label {
+        font-size: 14px;
+    }
+
+    .login-form .modal-dialog .modal-body .login-form-container div input {
+        font-size: 14px;
+        border: 1px solid #ccc;
+        height: 30px;
+    }
+
+    .login-form .modal-dialog .modal-body {
+        padding: 7px 17px 17px;
+    }
+
+    .login-form .modal-dialog .modal-body .login-form-container .login-navig .remember-pass-link {
+        font-size: 12px;
+    }
+}

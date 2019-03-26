@@ -1,0 +1,38 @@
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.form-label {
+  line-height: 21px;
+  display: block;
+  margin-bottom: 2px;
+  top: -5px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: $color-dark;
+
+  &--required {
+	&:after {
+	  content: ' *';
+	  font-weight: bold;
+	  color: $color-required;
+	}
+  }
+}
+
+.btn-default {
+  color: #637280 !important;
+  background-color: #e7edf0;
+  border-color: #cad8e2;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #cad8e2;
+}

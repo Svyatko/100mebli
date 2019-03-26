@@ -1,0 +1,72 @@
+.paid-success-form {
+    background-color: rgba(0,0,0,.5);
+    .modal-dialog {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) !important;
+        .modal-content {
+            .modal-header {
+                border-bottom: 0;
+                padding-bottom: 0;
+                .modal-title {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 38px;
+                    font-family: 'Oswald Medium';
+                }
+            }
+
+            .modal-body {
+                padding: 20px 40px;
+                p {
+                    font-size: 18px;
+                    font-family: 'Ubuntu Light';
+                    text-align: center;
+                }
+
+                .close {
+                    text-decoration: none;
+                    color: #fff;
+                    border-radius: 30px;
+                    text-align: center;
+                    background-color: #ED3D4F;
+                    font-size: 16px;
+                    padding: 10px 50px;
+                    opacity: 1;
+                    margin: 0 auto;
+                    float: none;
+                    position: relative;
+                    display: block;
+                    font-family: "Ubuntu Light";
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.bt-1px {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .paid-success-form .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 20px;
+    }
+
+    .paid-success-form .modal-dialog .modal-content .modal-body p {
+        font-size: 12px;
+    }
+
+    .paid-success-form .modal-dialog .modal-content .modal-body .close {
+        font-size: 12px;
+    }
+
+    .paid-success-form .modal-dialog {
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+    }
+}

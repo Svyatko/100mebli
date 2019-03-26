@@ -1,0 +1,822 @@
+
+
+$unchecked-star: '\2606';
+$unchecked-color: #888;
+$checked-star: '\2605';
+$checked-color: #ED3D4F;
+
+.star-cb-group {
+  /* remove inline-block whitespace */
+  font-size: 0;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  * {
+    font-size: 1.5rem;
+  }
+
+  
+  & > input {
+    display: none;
+    & + label {
+      /* only enough room for the star */
+      display: inline-block;
+      overflow: hidden;
+      text-indent: -9999px;
+      width: 1em;
+      white-space: nowrap;
+      cursor: pointer;
+      &:before {
+        display: inline-block;
+        text-indent: 9999px;
+        content: $unchecked-star;
+        color: $checked-color;
+      }
+    }
+    &:checked ~ label:before,
+      & + label:hover ~ label:before,
+      & + label:hover:before {
+      content: $checked-star;
+      color: #ED3D4F;
+     
+    }
+  }
+  
+  /* the hidden clearer */
+  & > .star-cb-clear + label {
+    text-indent: -9999px;
+    // width: .5em;
+    // margin-left: -.5em;
+  }
+  & > .star-cb-clear + label:before {
+    // width: .5em;
+  }
+
+  &:hover > input + label:before {
+    content: $unchecked-star;
+    color: $checked-color;
+    text-shadow: none;
+  }
+  &:hover > input + label:hover ~ label:before,
+  &:hover > input + label:hover:before {
+    content: $checked-star;
+    color: $checked-color;
+    
+  }
+}
+
+
+
+
+
+
+$stars: 5;
+$star-size: 20px;
+$star-spacing: 2px;
+$star-on-color: $checked-color;
+$star-off-color: #fff;
+
+.rating-default {
+	width: ($star-size * $stars) ;
+	label {
+		float: right;
+		position: relative;
+		width: $star-size;
+		height: $star-size;
+		cursor: pointer;		
+		&:not(:first-of-type) {
+			padding-right: $star-spacing;
+		}
+		
+		&:before {
+			content: "\2605";
+			font-size: $star-size + 2px;
+            color: $star-off-color;
+            text-shadow: 0px 0px 1px $star-on-color;
+			line-height: 1;
+		}
+	}	
+	input {
+		display: none;
+	}	
+	input.checked-active ~ label:before {
+		color: $star-on-color;
+	}
+}
+
+.product-single-container {
+    margin-top: 30px;
+    &__head-title-info {
+        display: flex;
+        align-items: center;
+        h2 {
+            font-size: 38px;
+            font-family: 'Oswald Medium' ;
+            margin-right: 40px;
+        }
+        &__rating {
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+            p {
+                margin-right: 15px;
+                margin-bottom: 0;
+                font-size: 18px;
+                font-family: 'Oswald Medium';
+                span {
+
+                }
+            }
+
+            .rating-default {
+
+            }
+        }
+
+        &__model-product {
+            p {
+                font-size: 16px;
+                font-family: 'Oswald Medium';
+                margin-bottom: 0;
+                span {
+
+                }
+            }
+        }
+    }
+
+    
+}
+
+.product-main-info-container__content {
+    margin-top: 30px !important;
+}
+
+.product-main-info-container {
+    border-bottom: 1px solid #ccc;
+    &__navigation {
+        margin-top: 45px;
+        ul {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            padding-left: 0;
+
+            li {
+                list-style: none;
+                margin-right: 20px;
+                a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-family: 'Oswald Medium';
+                    color: #000;
+                    text-decoration: none;
+                    outline: none;
+                    position: relative;
+                    padding-bottom: 10px;
+                    display: block;
+                }
+
+                a.active {
+                    &:after {
+                        content: '';
+                        display: block;
+                        border-bottom: 3px solid $checked-color;
+                        width: 50px;
+                        margin: 0 auto;
+                        position: absolute;
+                        bottom: -2px;
+                        left: 50%;
+                        transform: translate(-50%);
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        &__left-side {
+            &__wrapper {
+               margin-bottom: 30px;
+                &__slider {
+                    .slider-desc-main {
+
+                    }
+
+                    .slider-desc-nav {
+
+                    }
+                }
+            }
+            &__product-description {
+               
+                margin-bottom: 50px;
+                h2 {
+                    font-size: 28px;
+                    font-family: 'Oswald Medium';
+                    
+                    span {
+                        font-family: 'Oswald Light';
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: 'Ubuntu Light';
+                }
+            }
+            &__main-info {
+                h2 {
+                    font-size: 28px;
+                    font-family: 'Oswald Light';
+                }
+                &__line-col {
+                    padding: 7px 0;
+                    &:nth-child(even) {
+                        background-color: #F8F8F8;
+                        
+                    }
+                    p {
+                        margin-bottom: 0;
+                        font-size: 16px;
+                        font-family: 'Ubuntu Light';
+                    }
+                }
+            }
+
+            &__reviews {
+                padding: 0 0 20px 0;
+                h2 {
+                    font-size: 28px;
+                    font-family: 'Oswald Light';
+                    span {
+
+                    }
+                }
+                &__wrapper {
+                    &__item {
+                        margin: 20px 0;
+                        .left-side {
+                            p {
+                                margin: 0;
+                                font-size: 18px;
+                                font-family: 'Oswald Medium';
+                            }
+                        }
+
+                        .right-side {
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            .review-last-time {
+                                font-size: 16px;
+                                font-family: 'Ubuntu Light';
+                                margin: 0 20px;
+                            }
+
+                            .review-date {
+                                margin: 0 20px;
+                                font-size: 16px;
+                                font-family: "Ubuntu";
+                            }
+                        }
+
+                        .review-description {
+                            margin-top: 15px !important;
+                            p {
+                                font-size: 16px;
+                                font-family: 'Ubuntu Light';
+                            }
+                        }
+                    }
+                }
+
+                &__add-review-form {
+                    margin: 30px 0;
+                    .input-block-style {
+                        margin-bottom: 10px;
+                        input {
+                            width: 100%;
+                            outline: none;
+                            padding-left: 15px;
+                            font-size: 16px;
+                            font-family: 'Ubuntu Light';
+                        }
+
+                        label {
+                            width: 100%;
+                            display: block;
+                            margin-bottom: 5px;
+                            font-size: 18px;
+                            font-family: 'Oswald Light';
+                        }
+
+                        textarea {
+                            width: 100%;
+                            outline: none;
+                            font-size: 16px;
+                            font-family: 'Ubuntu Light';
+                            padding-left: 15px;
+                        }
+                    }
+
+                    .submit-review {
+
+                    }
+
+
+                }
+            }
+
+            &__delivery-section {
+                div {
+                    margin-bottom: 20px;
+                    h2 {
+                        font-size: 38px;
+                        font-family: 'Oswald Light';
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-family: 'Ubuntu Light';
+                        strong {
+
+                        }
+                    }
+
+                    ul {
+                        padding-left: 0;
+                        li {
+                            font-size: 16px;
+                            list-style: none;
+                            font-family: 'Ubuntu Light';
+                            display: flex;
+                            padding-left: 20px;
+                            &:before {
+                                content: ' - ';
+                                display: block;
+                                left: -10px;
+                                position: relative;
+                            }
+                            strong {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__right-side {
+            
+            &__variations-block {
+                background-color: #F8F8F8;
+                padding: 15px;
+                margin-bottom: 15px;
+                p {
+                    font-size: 18px;
+                    font-family: 'Oswald Medium';
+                }
+                form {
+                    .radio-group {
+                        input[type=radio] {
+                            position: absolute;
+                            visibility: hidden;
+                            display: none;
+                          }
+                          
+                          label {
+                            color: #333333;
+                            cursor: pointer;
+                            font-size: 16px;
+                            padding: 3px 20px;                         
+                            border: 2px solid #C4C4C4;
+                            font-family: 'Ubuntu Light';
+                            transition: all .1s ease-in-out;
+                            border-radius: 15px;
+                            margin-right: 10px;
+                          }
+                          
+                          input[type=radio]:checked + label {
+                            border: 2px solid #ED3D4F;
+                          }
+
+                          label + input[type=radio] + label {
+                            
+                          }
+                          
+                          .radio-group {
+                            display: inline-block;
+                            margin: 50px 50px 10px;
+                            border-radius: 99px;
+                            overflow: hidden;
+                          }
+                          
+                          .input-group {
+                            margin-left: 50px;
+                          }
+                    }
+
+                    .color-variation-style {
+                        label {
+                            color: #333333;
+                            cursor: pointer;
+                            font-size: 16px;
+                            padding: 8px;                         
+                            border: 2px solid transparent;
+                            font-family: 'Ubuntu Light';
+                            transition: all .1s ease-in-out;
+                            border-radius: 50%;
+                            margin-right: 5px;
+                            img {
+                                width: 30px;
+                                height: 30px;
+                                object-fit: contain;
+                            }
+                          }
+                          
+                          input[type=radio]:checked + label {
+                            border: 2px solid #ED3D4F;
+                          }
+                    }
+                }
+            }
+
+
+            &__add-to-cart-container {
+                background-color: #F8F8F8;
+                padding: 15px;
+                margin-bottom: 15px;
+                div {
+                    .in-stock {
+                        margin-bottom: 0;
+                        font-size: 18px;
+                        font-family: 'Oswald Medium';
+                        color: #5BA868;
+                    } 
+
+                    .out-stock {
+                        margin-bottom: 0;
+                    }
+                }
+
+                &__buy-block {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-size: 18px;
+                        font-family: 'Oswald Light';
+                        margin-bottom: 0;
+                        strong {
+                            margin: 0 10px;
+                            font-size: 22px;
+                            font-family: 'Oswald Bold';
+                            color: #ED3D4F;
+                        }
+                    }
+
+                    .btn-def-red {
+                        text-transform: uppercase;
+                        margin: 0 20px;
+                        font-size: 16px;
+                        font-family: 'Oswald Medium';
+                        padding: 7px 40px;
+                    }
+                }
+
+                
+            }
+
+            &__product-main-info {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                div {
+                    h2 {
+                        font-size: 28px;
+                        font-family: 'Oswald Light';
+                    }
+    
+                    .in-stock {
+                        margin-bottom: 0;
+                        font-size: 18px;
+                        font-family: "Oswald Medium";
+                        color: #5BA868;
+                    }
+    
+                    .out-stock {
+                        margin-bottom: 0;
+                        font-size: 18px;
+                        font-family: "Oswald Medium";
+                        color: #ED3D4F;
+                    }
+    
+                    .cart-price-container {
+                        div {
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-size: 18px;
+                                font-family: "Oswald Light";
+                                margin-bottom: 0;
+                                strong {
+                                    margin: 0 10px;
+                                    font-size: 22px;
+                                    font-family: "Oswald Bold";
+                                    color: #ED3D4F;
+                                }
+                            }
+    
+                            .btn-def-red {
+                                margin: 0 20px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+
+}
+
+
+.old-price {
+    text-decoration: line-through;
+    text-decoration-color: #ED3D4F;
+    font-size: 16px;
+    font-family: 'Oswald Light';
+}
+
+.slider-desc-nav {
+    .slick-slide {
+        img {
+            padding: 5px;
+        }
+    }
+}
+.slider-desc-main {
+    .slick-slide {
+        img {
+            padding: 5px;
+        }
+    }
+}
+
+.mob-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .product-single-container__head-title-info h2 {
+        font-size: 20px;
+        font-family: "Oswald Medium";
+        margin-right: 0;
+    }
+
+    .product-single-container__head-title-info {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .product-single-container__head-title-info__rating p, .product-single-container__head-title-info__model-product p, .product-main-info-container__content__left-side__main-info__line-col p {
+        font-size: 12px;
+    }
+
+    .product-single-container__head-title-info__rating {
+        margin-right: 20px;
+    }
+
+    .rating-default label {
+        width: 15px;
+        height: 15px;
+        &:before {
+            font-size: 14px;
+        }
+    }
+
+    .product-main-info-container__navigation ul li a {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .product-main-info-container__navigation {
+        margin-top: 20px;
+    }
+
+    .product-main-info-container__content__left-side {
+        padding: 0;
+    }
+
+    .product-main-info-container__content__left-side__product-description h2 {
+        font-size: 18px;
+    }
+
+    .product-main-info-container__content__left-side__product-description p  {
+        font-size: 12px;
+    }
+
+    .product-main-info-container__content__left-side__product-description {
+        margin-bottom: 10px;
+    }
+
+    .product-main-info-container__content__left-side__main-info h2 {
+        font-size: 18px;
+        font-family: "Oswald Light";
+        margin-bottom: 0;
+    }
+
+    .product-main-info-container__content__right-side__variations-block form .radio-group label {       
+        font-size: 12px;
+        padding: 3px 10px;        
+        margin-right: 0px;
+    }
+
+    .product-main-info-container__content__right-side__variations-block p {
+        margin-bottom: 10px;
+    }
+
+    
+    .product-main-info-container__content__right-side__variations-block {   
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .product-main-info-container__content__right-side__variations-block form .color-variation-style label img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product-main-info-container__content__right-side__variations-block form .color-variation-style label {        
+        font-size: 12px;
+        padding: 3px;
+        border: 2px solid transparent;        
+        margin-right: 0px;
+    }
+
+    .product-main-info-container__content__right-side__add-to-cart-container div .in-stock, .product-main-info-container__content__right-side__add-to-cart-container__buy-block p {
+        font-size: 14px;
+    }
+
+    .product-main-info-container__content__right-side__add-to-cart-container__buy-block p strong {
+        margin: 0 5px;
+        font-size: 16px;       
+    }
+
+    .product-main-info-container__content__right-side__add-to-cart-container__buy-block {
+        padding: 0;
+    }
+
+    .product-main-info-container__content__right-side__add-to-cart-container__buy-block .btn-def-red {
+        text-transform: uppercase;
+        margin: 0 20px;
+        font-size: 14px;
+        font-family: "Oswald Medium";
+        padding: 5px 30px;
+    }
+
+    .product-main-info-container__content__left-side__reviews h2 {
+        font-size: 18px;
+    }
+
+    .flex-style-review {
+        flex-direction: column;
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-last-time {
+        font-size: 12px;
+        font-family: "Ubuntu Light";
+        margin: 0;
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .right-side .review-date {
+        margin: 0 0px;
+        font-size: 12px;
+        font-family: "Ubuntu";
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .review-description {
+        margin-top: 5px !important;
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .review-description p {
+        font-size: 12px;
+        font-family: "Ubuntu Light";
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item {
+        margin: 10px 0 10px;
+    }
+
+    .product-main-info-container__content__left-side__reviews {
+        padding: 25px 0 20px 0;
+    }
+
+    .btn-def-red {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+    .slider-blocks-third__title-with-arrows h2 {
+        font-size: 18px;
+    }
+
+    .slider-blocks-third__title-with-arrows__arrows .left-arrow span, .slider-blocks-third__title-with-arrows__arrows .right-arrow span {
+        font-size: 20px;
+    }
+
+    .slider-blocks-third {
+        margin-top: 30px;
+    }
+
+    .padd-mob-style {
+        padding: 2px !important;
+    }
+
+    .old-price {
+        font-size: 12px;
+    }
+
+    .slider-blocks-third__slider-wrapper__item__description__price p strong {
+        font-size: 14px;
+    } 
+
+    .product-main-info-container__content__right-side {
+        padding: 0;
+    }
+
+    // .slider-blocks-third > .container {
+    //     padding: 0;  
+    // }
+
+    .product-main-info-container__navigation ul li {
+        list-style: none;
+        margin-right: 12px;
+    } 
+
+    .product-main-info-container__content__right-side__product-main-info div h2 {
+        font-size: 18px;
+        font-family: "Oswald Light";
+        margin-top: 15px;
+    }
+
+    .product-main-info-container__content__right-side__product-main-info div .in-stock {
+        font-size: 14px;
+    }
+
+    .product-main-info-container__content__right-side__product-main-info div .cart-price-container div p {
+        font-size: 14px;
+        strong {
+            font-size: 16px;
+        }
+    }
+
+    .product-main-info-container__content__left-side__reviews__add-review-form .input-block-style label {
+        font-size: 14px;
+    }
+
+    .product-main-info-container__content__left-side__reviews__add-review-form .input-block-style input {
+        font-size: 14px;
+    }
+
+    .product-main-info-container__content__left-side__reviews__wrapper__item .left-side p {
+        font-size: 16px;
+    }
+
+    .product-main-info-container__content__left-side__delivery-section div h2 {
+        font-size: 18px;
+        font-family: "Oswald Light";
+    }
+
+    .product-main-info-container__content__left-side__delivery-section div p, .product-main-info-container__content__left-side__delivery-section div ul li {
+        font-size: 12px;
+    }
+}
+
+.nav_wrapper > .container {
+    padding: 0;
+}
+
+.menu-header > ul > li:first-child > a {
+    padding-left: 0;
+}
+
+.product-main-info-container__content__right-side__product-main-info {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,114 @@
+/* Variables */
+$fontPath: '/fonts/';
+
+
+
+
+@font-face {
+  font-family: 'SegoeUI Regular';
+  src: url('#{$fontPath}Segoeui/segoeui.eot'),
+  url('#{$fontPath}Segoeui/segoeui.woff2') format('woff2'),
+  url('#{$fontPath}Segoeui/segoeui.woff') format('woff'), 
+  url('#{$fontPath}Segoeui/segoeui.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SegoeUI Bold';
+  src: url('#{$fontPath}Segoeui/segoeui-bold.eot'),
+  url('#{$fontPath}Segoeui/segoeui-bold.woff') format('woff'), 
+  url('#{$fontPath}Segoeui/segoeui-bold.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SegoeUI Semibold';
+  src: url('#{$fontPath}SegoeUI/segoeui-semibold.eot'),  
+  url('#{$fontPath}Segoeui/segoeui-semibold.woff') format('woff'), 
+  url('#{$fontPath}Segoeui/segoeui-semibold.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$fontPath}icomon/icomoon.eot?txij9i');
+  src:  url('#{$fontPath}icomon/icomoon.eot?txij9i#iefix') format('embedded-opentype'),
+    url('#{$fontPath}icomon/icomoon.ttf?txij9i') format('truetype'),
+    url('#{$fontPath}icomon/icomoon.woff?txij9i') format('woff'),
+    url('#{$fontPath}icomon/icomoon.svg?txij9i#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: url('#{$fontPath}Ubuntu/ubuntu-l.eot'),
+    url('#{$fontPath}Ubuntu/ubuntu-l.woff2') format('woff2'),
+    url('#{$fontPath}Ubuntu/ubuntu-l.woff') format('woff'), 
+    url('#{$fontPath}Ubuntu/ubuntu-l.ttf') format('truetype');   
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu Medium';
+    src: url('#{$fontPath}Ubuntu/ubuntu-m.eot'),
+    url('#{$fontPath}Ubuntu/ubuntu-m.woff2') format('woff2'),
+    url('#{$fontPath}Ubuntu/ubuntu-m.woff') format('woff'), 
+    url('#{$fontPath}Ubuntu/ubuntu-m.ttf') format('truetype');   
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ubuntu Regular';
+    src: url('#{$fontPath}Ubuntu/ubuntu-r.eot'),
+    url('#{$fontPath}Ubuntu/ubuntu-r.woff2') format('woff2'),
+    url('#{$fontPath}Ubuntu/ubuntu-r.woff') format('woff'), 
+    url('#{$fontPath}Ubuntu/ubuntu-r.ttf') format('truetype');   
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Oswald Bold';
+    src: url('#{$fontPath}Oswald/oswald-bold.eot'),
+    url('#{$fontPath}Oswald/oswald-bold.woff2') format('woff2'),
+    url('#{$fontPath}Oswald/oswald-bold.woff') format('woff'), 
+    url('#{$fontPath}Oswald/oswald-bold.ttf') format('truetype');   
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Oswald Light';
+    src: url('#{$fontPath}Oswald/Oswald-Light.eot');
+    src: url('#{$fontPath}Oswald/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontPath}Oswald/Oswald-Light.ttf') format('truetype'),
+         url('#{$fontPath}Oswald/Oswald-Light.woff') format('woff'),
+         url('#{$fontPath}Oswald/Oswald-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Oswald Medium';
+    src: url('#{$fontPath}Oswald/Oswald-Medium.eot');
+    src: url('#{$fontPath}Oswald/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontPath}Oswald/Oswald-Medium.ttf') format('truetype'),
+         url('#{$fontPath}Oswald/Oswald-Medium.woff') format('woff'),
+         url('#{$fontPath}Oswald/Oswald-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }

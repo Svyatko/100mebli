@@ -1,0 +1,171 @@
+.checkout-form {
+    background-color: rgba(0,0,0,.5);
+    .modal-dialog {
+        max-width: 800px;
+        .modal-content {
+            .modal-header {
+                border-bottom: 0;
+                align-items: center;
+                
+                .modal-title {
+                    font-size: 38px;
+                    font-family: 'Oswald Medium';
+                }
+    
+                .close {
+                    outline: none;
+                    span {
+                        border: 1px solid #033333;
+                        border-radius: 50%;
+                        width: 25px;
+                        display: block;
+                        height: 25px;
+                        line-height: 18px;
+                    }
+                } 
+            }
+
+            .modal-body {
+                padding: 30px 65px;
+                border-top: 1px solid rgba(112,112,112, .21);
+                .checkout-form-container {
+                    div {
+                        h3 {
+                            font-size: 18px;
+                            font-family: 'Oswald Medium';
+                        }
+
+                        select {
+                            
+                            option {
+
+                            }
+                        }
+
+                        .nice-select {
+                            width: 100%;
+                            border: 1px solid rgba(112,112,112, .21);
+                            outline: none;
+                            margin-bottom: 10px;
+                            &:after {
+                                border-bottom: 1px solid #ED3D4F;
+                                border-right: 1px solid #ED3D4F;
+                                content: "";
+                                display: block;
+                                height: 10px;
+                                margin-top: -4px;
+                                pointer-events: none;
+                                position: absolute;
+                                right: 12px;
+                                top: 50%;
+                                width: 10px;
+                            }
+
+                            span {
+                                font-size: 16px;
+                                font-family: 'Ubuntu Light';
+                            }
+
+                            .list {
+                                width: 100%;
+                                li {
+                                    font-size: 16px;
+                                    font-family: "Ubuntu Light";
+                                    height: 30px;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                            }
+                        }
+
+                        input {
+                            width: 100%;
+                            font-size: 16px;
+                            height: 35px;
+                            font-family: "Ubuntu Light";
+                            margin-bottom: 10px;
+                            border: 1px solid rgba(112,112,112, .21);
+                            border-radius: 3px;
+                            padding-left: 18px;
+                            outline: none;
+                        }
+
+                        textarea {
+                            width: 100%;
+                            font-size: 16px;                            
+                            font-family: "Ubuntu Light";
+                            margin-bottom: 10px;
+                            border: 1px solid rgba(112,112,112, .21);
+                            border-radius: 3px;
+                            padding-left: 18px;
+                            outline: none;
+                        }
+                    }
+
+                    .checkout-pay-block {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p {
+                            font-size: 18px;
+                            font-family: 'Ubuntu Light';
+                            margin-bottom: 0;
+                        }
+
+                        span {
+                            font-size: 28px;
+                            font-family: 'Oswald Medium';
+                        }
+
+                        input {
+                            max-width: 200px;
+                            padding-left: 0;
+                            text-align: center;
+                            margin-right: 0;
+                            padding-right: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select:after {
+    margin-top: -6px;
+}
+
+@media screen and (max-width: 992px) {
+    .checkout-form {
+        padding-right: 0 !important;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-body {
+        padding: 20px 15px;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 20px;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div h3, .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block p {
+        font-size: 14px;
+    }
+    .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select span, .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div .nice-select .list li, .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div input, .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container div textarea {
+        font-size: 12px;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block span {
+        font-size: 20px;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block {
+        flex-wrap: wrap;
+    }
+
+    .checkout-form .modal-dialog .modal-content .modal-body .checkout-form-container .checkout-pay-block input {
+        max-width: none;
+        margin-top: 15px;
+    }
+}

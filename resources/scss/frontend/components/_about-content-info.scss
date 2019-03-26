@@ -1,0 +1,74 @@
+.about-container-info {
+    margin: 100px 0;
+    &__thumbnail {
+        min-height: 200px;
+        background-size: cover;
+        max-height: 450px;
+    }
+
+    &__description {
+        padding: 40px;
+        h1 {
+            font-size: 48px;
+            font-family: 'Oswald Light';
+        }
+
+        p {
+            font-size: 16px;
+            font-family: 'Ubuntu Regular';
+        }
+
+        .read-more-btn {
+            display: block;
+            text-align: right;
+            color: #ED3D4F;
+            font-size: 16px;
+            font-family: 'Oswald Light';
+            text-decoration: none;
+        }
+    }
+}
+
+.sales-arrows__right-arrow {
+    span {
+        font-size: 30px;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            color: #ED3D4F;
+        }
+    }
+}
+.sales-arrows__left-arrow {
+    span {
+        font-size: 30px;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            color: #ED3D4F;
+        }
+    }
+}
+
+.slider-blocks-third__title-with-arrows__arrows {
+    .left-arrow {
+        span {
+            font-size: 30px;
+            transition: all .2s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: #ED3D4F;
+            }
+        }
+    }
+    .right-arrow {
+        span {
+            font-size: 30px;
+            transition: all .2s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: #ED3D4F;
+            }
+        }
+    }
+}

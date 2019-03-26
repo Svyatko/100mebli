@@ -1,0 +1,62 @@
+.about-container {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    h2 {
+        font-size: 48px;
+        font-family: "Oswald Light";
+        display: table;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+
+    &__wrapper  {
+        &__item {
+            &__list-content-about {
+                &__content {
+                    h3 {
+                        font-size: 38px;
+                        font-family: 'Oswald Bold';
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-family: 'Ubuntu Light';
+                    }  
+                }
+                
+                &__image-description {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 100%;                   
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.about-container__wrapper__item:nth-child(even) .about-container__wrapper__item__list-content-about {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 992px) {
+    .about-container h2 {
+       font-size: 24px; 
+    }
+
+    .about-container__wrapper__item__list-content-about__content, .about-container__wrapper__item__list-content-about__image-description {
+        padding: 0;
+    }
+
+    .about-container__wrapper__item__list-content-about__content h3 {
+        font-size: 18px;
+    }
+
+    .about-container__wrapper__item__list-content-about__content p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,114 @@
+.contacts-container {
+    margin-top: 70px;    
+    h2 {
+        font-size: 58px;
+        font-family: 'Oswald Medium';
+        text-align: center;
+    }
+
+    &__centered-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        display: block;
+        margin: 70px auto 0;
+
+        &__blocks {
+            &__item {
+                h3 {
+                    font-size:28px;
+                    font-family: 'Oswald Medium';
+                }
+
+                &__info {
+                    display: flex;
+                    align-items: flex-start;
+                    margin: 15px 0;
+                    span {
+                        margin-right: 15px; 
+                        font-size: 20px;
+                        color: #ED3D4F;
+                    }
+                    div {
+
+                        a {
+                            font-size: 18px;
+                            font-family: 'Ubuntu Light';
+                            color: #000;
+                            text-decoration: none;
+                            line-height: 20px;
+                            outline: none;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            line-height: 20px;
+                            font-family: 'Ubuntu Light';
+                            color: #000;
+                            margin-bottom: 0;
+                        }
+
+                        strong {
+                            font-family: 'Ubuntu Regular';
+                        }  
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.bb-gray {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.21);
+}
+
+.bg-lightgray {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,ffffff+42,ffffff+67,ffffff+100 */
+background: rgb(250,250,250); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 67%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(250,250,250,1) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 67%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+   
+}
+
+@media screen and (max-width: 992px) {
+    .contacts-container h2 {
+        font-size: 22px;
+    }
+
+    .contacts-container__centered-wrapper__blocks__item h3 {
+        font-size: 16px;
+    }
+
+    .contacts-container__centered-wrapper__blocks__item__info div a {
+        font-size: 12px;
+    }
+
+    .contacts-container__centered-wrapper__blocks__item__info div strong {
+        font-size: 12px;
+    }
+
+    .contacts-container__centered-wrapper__blocks__item__info span {
+        margin-right: 10px;
+        font-size: 16px;
+        color: #ED3D4F;
+    }
+
+    .contacts-container__centered-wrapper {
+        margin: 30px auto 0;
+    }
+
+    .contacts-container__centered-wrapper__blocks__item__info div p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .contacts-container {
+        margin-top: 40px;
+    }
+
+    .contacts-container__centered-wrapper__blocks {
+        padding: 0;
+    }
+}

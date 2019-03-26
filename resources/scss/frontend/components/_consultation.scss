@@ -1,0 +1,67 @@
+.consultation-form {
+    background-color: rgba(0,0,0,.5);
+    padding-right: 0 !important;
+    .modal-dialog {     
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: 0;
+        transform: translate(-50%, -50%) !important;
+        max-width: 600px;
+        width: 100%; 
+        .modal-content {           
+            .modal-header {                
+                .modal-title {
+                    font-size: 28px;
+                    font-family: 'Oswald Medium';
+                    position: relative;
+                }
+
+                .close {
+                    outline: none;
+                    span {
+
+                    }
+                }
+            }
+ 
+            .modal-body {
+                .consultation-form-container {
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 20px;
+                        label {
+                            font-size: 18px;
+                            font-family: 'Oswald Medium';
+                        }
+
+                        input {
+                            font-size: 18px;
+                            font-family: 'Ubuntu Regular';
+                            outline: none;
+                            padding-left: 15px;
+                            border: 1px solid #ccc;
+
+                        }
+                    }
+
+                    .consultation-btn {
+                        font-size: 16px;
+                        font-family: 'Oswald Medium';
+                        text-align: center;
+                        color: #fff;
+                        background-color: #ED3D4F;
+                        border-radius: 20px;
+                        padding: 7px 30px;
+                        display: table;
+                        margin: 0 auto;
+                        border: none;
+                        outline: none;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

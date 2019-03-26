@@ -1,0 +1,217 @@
+.filter-form-style [type="checkbox"]:checked,
+.filter-form-style [type="checkbox"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+.filter-form-style [type="checkbox"]:checked + label,
+.filter-form-style [type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0;
+    display: inline-block;
+    color: #333333;
+    font-family: 'Ubuntu Light';
+}
+.filter-form-style [type="checkbox"]:checked + label:before,
+.filter-form-style [type="checkbox"]:not(:checked) + label:before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    background: #fff;
+    
+}
+
+.filter-form-style [type="checkbox"]:hover + label:before {
+    border: 1px solid #ED3D4F;
+    transition: all .2s ease-in-out;
+}
+
+.filter-form-style [type="checkbox"]:checked + label:before {
+    border: 1px solid #ED3D4F;
+    transition: all .2s ease-in-out;
+}
+.filter-form-style [type="checkbox"]:checked + label:after,
+.filter-form-style [type="checkbox"]:not(:checked) + label:after
+{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #ED3D4F;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: all 0.2s ease;
+}
+.filter-form-style [type="checkbox"]:not(:checked) + label:after
+{
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+ .filter-form-style [type="checkbox"]:checked + label:after
+{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+ .filter-form-style [type="checkbox"]:disabled:checked + label:before,
+ .filter-form-style [type="checkbox"]:disabled:not(:checked) + label:before
+{
+    border-color: #ccc;
+    background-color: #eee;
+}
+.filter-form-style [type="checkbox"]:disabled:checked + label:after
+{
+    background: #aaa;
+}
+
+
+
+.catalog-container {
+    &__sidebar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0 0 5px #ccc;
+        .filter-form-style {
+            margin-bottom: 30px;
+            p {
+                margin-bottom: 5px;
+            } 
+            h2 {
+                font-size: 20px;
+                font-family: 'Oswald Light';
+            }
+        }        
+    }
+
+    &__content {
+
+    }
+}
+
+.price-range-block {
+    margin: 40px 0;
+    width: 100%;
+    h2 {
+        font-size: 20px;
+        font-family: "Oswald Light";
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.ui-slider-horizontal {
+    height: .6em;
+}
+.ui-slider-horizontal {
+    margin-bottom: 15px;
+    width:100%;
+}
+.ui-widget-header {
+    background: #3FE331;
+}
+
+.price-range-search {
+    width:100%; 
+    background-color: #f9f9f9; 
+    border: 1px solid #6e6666;
+    min-width: 40%;
+    display: inline-block;
+    height: 32px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom:20px;
+    font-size:16px;
+}
+.price-range-field{
+    width:20%; 
+    min-width: 16%;
+    background-color:#f9f9f9; 
+    border: 1px solid #6e6666; 
+    color: black; 
+    font-family: myFont; 
+    font: normal 14px Arial, Helvetica, sans-serif; 
+    border-radius: 5px; 
+    height:26px; 
+    padding:5px;
+}
+.search-results-block{
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: 1px solid #ED3D4F;
+    background: #fff;
+    font-weight: normal;
+    color: #454545;
+    border-radius: 50%;
+    width: 15px;
+    top: -6px;
+    outline: none;
+    height: 15px;
+    cursor: ew-resize;
+}
+
+.ui-widget.ui-widget-content {
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.ui-widget-header {
+    background: #ED3D4F;
+}
+
+
+.range-count {
+    display: flex;
+    align-items: center;
+    input {
+        width: 100%;
+        max-width: 60px;
+    }
+
+    label {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .content-filter {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        transition: all .2s ease-in-out;
+      }
+      .block {
+        visibility: visible;
+        transition: all .2s ease-in-out;
+        opacity: 1;
+        height: auto;
+      }
+
+      .filter-form-style [type=checkbox]:not(:checked) + label {
+          font-size: 14px;
+      }
+}

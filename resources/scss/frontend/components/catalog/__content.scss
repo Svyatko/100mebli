@@ -1,0 +1,40 @@
+@media screen and (min-width: 1200px) and (max-width: 1700px) {
+    .catalog-container__content {
+        .slider-blocks-third__slider-wrapper__item__description {
+            padding: 10px;
+            h3 {
+                font-size: 20px;
+            }
+
+            .slider-blocks-third__slider-wrapper__item__description__price {
+                span {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 16px;
+                    strong {
+                        font-size: 18px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.btn-def-red {
+    outline: none;
+    box-shadow: none;
+    display: block;
+    &:focus {
+        outline: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .catalog-container__content {
+        padding: 0;
+    }
+}
